@@ -32,6 +32,22 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 |  const   | fallthrough |   if   |   range   |  type  |
 | continue |     for     | import |  return   |
 
+### Go 的基本类型
+bool 布尔值
+string 字符串
+
+int int8 int16 int32 int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte   =>   uint8别名
+rune   =>   int32别名
+            表示一个 Unicode 码点
+
+float32 float64
+
+complex64   complete128
+
+
 ### Java 是一门古老的语言啊
 
 ### Python 是一门相对 Java,C 来说比较新的语言
