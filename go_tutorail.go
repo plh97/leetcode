@@ -3,6 +3,7 @@ package main
 import(
   "fmt"
   "math/cmplx"
+  "math"
 )
 
 func add( x, y int) int {
@@ -46,14 +47,50 @@ var (
   z       complex128  = cmplx.Sqrt(-5 - 12i)
 )
 func fundamtype() {
-  
-  fmt.Print("Type: %T,  Value: %v\n", ToBe, ToBe)
-  fmt.Print("Type: %T,  Value: %v\n", MaxInt, MaxInt)
-  fmt.Print("Type: %T,  Value: %v\n", z, z)
+  fmt.Printf("Type: %T,  Value: %v\n", ToBe, ToBe)
+  fmt.Printf("Type: %T,  Value: %v\n", MaxInt, MaxInt)
+  fmt.Printf("Type: %T,  Value: %v\n", z, z)
 }
 
+func void (){
+  var i int
+  var f float64
+  var b bool
+  var s string
+
+  fmt.Printf("%v %v %v %q \n", i,f,b,s)
+}
+
+// 转化数值类型的方式
+func valueTranslation () {
+  var i int = 42
+  var f float64 = float64(i)
+  var u uint = uint(i)
+  fmt.Printf("%v %v %v \n", i,f,u)
+}
+
+// 转化数值类型的方式 - 2
+func valueTranslation2 () {
+  x,y := 3,4
+  f := math.Sqrt(float64(x*x+y*y))
+  z := uint(f) 
+  fmt.Printf("%v %v %v \n", x,y,z)
+}
+
+// Derivation => 推导类型
+func derivation () {
+  a := 31245   // int
+  b := 3.4     // float
+  c := 0.5i    // complex128   这尼玛难道是复数....
+  d := c*0.5i  // complex128   (-0.25+0i)
+  fmt.Printf("%T\n%T\n%T\n%v", a,b,c,d)   
+}
 
 func main() {
   fundamtype()
   varity()
+  void()
+  valueTranslation()
+  valueTranslation2()
+  derivation()
 }
