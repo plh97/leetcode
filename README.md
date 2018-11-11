@@ -44,7 +44,20 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 | rune      | int32别名   | 表示一个 Unicode 码点 |
 
      
- 
+### fmt 基础库
+- **Print** 
+  it will print number variables, and will not include a line break at the end.
+  它会打印数字变量,但是将不会包括一行的尾部断点.
+
+- **Printf** 
+  it will not print number variables, and will not include a line break at the end.
+  它将不会打印数字变量, 并且将不会包括一行的尾部断点.
+
+- **Println** 
+  it will print number variables, and will include a line break at the end.
+  它将会打印数字变量,并且将会包括一行尾部的断行.
+
+
 
 
 

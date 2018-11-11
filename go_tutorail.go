@@ -46,7 +46,10 @@ var (
   z       complex128  = cmplx.Sqrt(-5 - 12i)
 )
 func fundamtype() {
-
+  
+  fmt.Print("Type: %T,  Value: %v\n", ToBe, ToBe)
+  fmt.Print("Type: %T,  Value: %v\n", MaxInt, MaxInt)
+  fmt.Print("Type: %T,  Value: %v\n", z, z)
 }
 
 
