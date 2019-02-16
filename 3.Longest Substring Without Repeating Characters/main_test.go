@@ -45,35 +45,32 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: makeListNode([]int{2, 4, 3}),
-				two: makeListNode([]int{5, 6, 4}),
+				one: "232432",
 			},
 			a: ans{
-				one: makeListNode([]int{7, 0, 8}),
+				one: 3,
 			},
 		},
 		question{
 			p: para{
-				one: makeListNode([]int{9, 8, 7, 6, 5}),
-				two: makeListNode([]int{1, 1, 2, 3, 4}),
+				one: "aaa",
 			},
 			a: ans{
-				one: makeListNode([]int{0, 0, 0, 0, 0, 1}),
+				one: 1,
 			},
 		},
 		question{
 			p: para{
-				one: makeListNode([]int{0}),
-				two: makeListNode([]int{5, 6, 4}),
+				one: "aab",
 			},
 			a: ans{
-				one: makeListNode([]int{5, 6, 4}),
+				one: 2,
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, addTwoNumbers(p.one, p.two), "输入:%v", p)
+		ast.Equal(a.one, lengthOfLongestSubstring(p.one), "输入:%v", p)
 	}
 }
