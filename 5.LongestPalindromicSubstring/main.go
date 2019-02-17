@@ -1,9 +1,6 @@
 package longestPalindrome
 
 func isPalindromicSubstring(s string) string {
-	if len(s) == 1 {
-		return s
-	}
 	if len(s)%2 == 0 {
 		for i := 0; i < len(s)/2; i++ {
 			if s[i] != s[len(s)-1-i] {
@@ -22,7 +19,7 @@ func isPalindromicSubstring(s string) string {
 }
 
 func longestPalindrome(s string) string {
-	if len(s) == 1 {
+	if len(s) < 2 {
 		return s
 	}
 	var longString string
