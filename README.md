@@ -1,3 +1,9 @@
+
+[![LeetCode 排名](https://img.shields.io/badge/pengliheng-6-blue.svg)](https://leetcode.com/pengliheng/)
+[![codecov](https://codecov.io/gh/pengliheng/teetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/aQuaYi/LeetCode-in-Go)
+[![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/aQuaYi/LeetCode-in-Go)
+
+
 ### Go 语言是一个非常强大的语言 很棒!
 
 Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包。再如，Go 语言接受了以 Erlang 语言为代表的面向消息编程思想，支持 goroutine 和通道，并推荐使用消息而不是共享内存来进行并发编程。总体来说，Go 语言是一个非常现代化的语言，精小但非常强大。
