@@ -11,3 +11,4 @@ for d in $(go list ./... | grep -v vendor); do
         rm profile.out
     fi
 done
+bash <(curl -s https://codecov.io/bash) -t 47a37090-9a90-4358-8e69-d81d5ce4f9e2
