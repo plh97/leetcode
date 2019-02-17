@@ -5,13 +5,8 @@
 [![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/pengliheng/leetcode)
 
 
-
-
 ### Golang 是一个非常强大的语言 很棒!
-
 Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包。再如，Go 语言接受了以 ErLang 语言为代表的面向消息编程思想，支持 goroutine 和通道，并推荐使用消息而不是共享内存来进行并发编程。总体来说，Go 语言是一个非常现代化的语言，精小但非常强大。
-
-
 
 ### Golang 最主要的特性：
 - 自动垃圾回收
@@ -26,18 +21,13 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 
 ### Golang 适合用来做什么
 - **服务器编程** 以前如果使用C或者C++做的那些事情，用Go来做很合适，例如处理日志、数据打包、虚拟机处理、文件系统等。
-
 - **分布式系统** 数据库代理器等
-
 - **网络编程** 这一块目前应用最广，包括Web应用、API应用、下载应用、
-
 - **内存数据库** 前一段时间 google 开发的 groupCache，couchBase的部分组建
-
 - **云平台** 目前国外很多云平台在采用Go开发，CloudFoundy的部分组建，前VMare的技术总监自己出来搞的apcera云平台。
 
 
 ### Golang 语言的基础
-
 - 包声明
 - 引入包
 - 函数
@@ -46,7 +36,6 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 - 注释
 
 ### Golang 的25个关键字
-
 |  break   |   default   |  func  | interface | select |
 | :------: | :---------: | :----: | :-------: | :----: |
 |   case   |    defer    |   go   |    map    | struct |
@@ -70,16 +59,12 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 - **Print** 
   it will print number variables, and will not include a line break at the end.
   它会打印数字变量,但是将不会包括一行的尾部断点.
-
 - **Printf** 
   it will not print number variables, and will not include a line break at the end.
   它将不会打印数字变量, 并且将不会包括一行的尾部断点.
-
 - **Println** 
   it will print number variables, and will include a line break at the end.
   它将会打印数字变量,并且将会包括一行尾部的断行.
-
-
 
 ### Bug Free
 为什么我的代码总被同事吐槽bug多呢?
@@ -92,7 +77,6 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 - 写代码很随意,没有经过深思熟虑.写错了直接编译一次嘛.
 - 但是很多bug是无法通过编译能够发现的.尤其是JavaScript这种动态语言,
 - 所以一定要养成好习惯.尤其是在写JavaScript这种动态语言的时候.
-
 
 ### 我的观念
 程序员的职场核心竞争力是coding的能力,这个是硬指标
