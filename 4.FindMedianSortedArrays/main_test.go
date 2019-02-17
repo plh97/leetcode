@@ -1,4 +1,4 @@
-package FindMedianSortedArrays
+package main
 
 import (
 	"testing"
@@ -49,7 +49,7 @@ func Test_OK(t *testing.T) {
 				two: []int{-1, 3},
 			},
 			a: ans{
-				one: 0.5,
+				one: 1.5,
 			},
 		},
 	}

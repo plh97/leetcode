@@ -1,4 +1,4 @@
-## [3.Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+## [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/)
 
 ###### 2019/02/16
 
@@ -9,7 +9,3 @@
 > pww -> return 2
 > ww -> return 1
 > wkew -> return 3
-
-
-
-
