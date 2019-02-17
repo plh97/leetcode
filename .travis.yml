@@ -14,4 +14,4 @@ script:
   - bash ./test.sh
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t uuid-repo-token
+  - bash <(curl -s https://codecov.io/bash) -t f64212a9401d421ea4f9497cf34b6983

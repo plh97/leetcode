@@ -2,7 +2,9 @@
 
 [![LeetCode 排名](https://img.shields.io/badge/pengliheng-6-blue.svg)](https://leetcode.com/pengliheng/)
 [![codecov](https://codecov.io/gh/pengliheng/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/pengliheng/leetcode)
-[![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/aQuaYi/LeetCode-in-Go)
+[![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/pengliheng/leetcode)
+
+
 
 
 ### Go 语言是一个非常强大的语言 很棒!
