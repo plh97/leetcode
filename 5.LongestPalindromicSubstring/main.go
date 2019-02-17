@@ -1,9 +1,7 @@
-package main
-
-import "fmt"
+package longestPalindrome
 
 func isPalindromicSubstring(s string) string {
-	if len(s)==1 {
+	if len(s) == 1 {
 		return s
 	}
 	if len(s)%2 == 0 {
@@ -24,7 +22,7 @@ func isPalindromicSubstring(s string) string {
 }
 
 func longestPalindrome(s string) string {
-	if len(s)==1 {
+	if len(s) == 1 {
 		return s
 	}
 	var longString string
@@ -38,8 +36,4 @@ func longestPalindrome(s string) string {
 		}
 	}
 	return longString
-}
-
-func main() {
-	fmt.Println(longestPalindrome("babad"))
 }
