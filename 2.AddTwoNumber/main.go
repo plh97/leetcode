@@ -1,4 +1,4 @@
-package addTwoNumber
+package addTwoNumbers
 
 import "fmt"
 
@@ -68,6 +68,3 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return l3.Next
 }
 
-func main() {
-	fmt.Println(addTwoNumbers(l_1(5), l_1(5)))
-}
