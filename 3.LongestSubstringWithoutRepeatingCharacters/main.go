@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package lengthOfLongestSubstring
 
 func isRepeat(s string) bool {
 	m := make(map[string]string)
@@ -25,8 +23,4 @@ func lengthOfLongestSubstring(s string) int {
 		}
 	}
 	return m
-}
-
-func main() {
-	fmt.Println(lengthOfLongestSubstring("aab"))
 }
