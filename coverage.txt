@@ -1,6 +1,12 @@
 
 mode: atomic
 mode: atomic
+www/leetcode/1.TwoSum/main.go:3.43,4.33 1 2
+www/leetcode/1.TwoSum/main.go:11.2,11.12 1 1
+www/leetcode/1.TwoSum/main.go:4.33,5.38 1 5
+www/leetcode/1.TwoSum/main.go:5.38,6.33 1 6
+www/leetcode/1.TwoSum/main.go:6.33,8.5 1 1
+mode: atomic
 www/leetcode/2.AddTwoNumber/main.go:12.36,25.2 3 0
 www/leetcode/2.AddTwoNumber/main.go:26.32,35.2 2 0
 www/leetcode/2.AddTwoNumber/main.go:36.28,41.2 1 0

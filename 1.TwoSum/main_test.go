@@ -1,4 +1,4 @@
-package main
+package twoSum
 
 import (
 	"testing"
@@ -7,12 +7,12 @@ import (
 )
 
 type para struct {
-	str string
-	row int
+	one []int
+	two int
 }
 
 type ans struct {
-	str string
+	one []int
 }
 
 type question struct {
@@ -26,29 +26,26 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				str: "PAYPALISHIRING",
-				row: 3,
+				one: []int{3, 2, 4},
+				two: 6,
 			},
 			a: ans{
-				str: "PAHNAPLSIIGYIR",
+				one: []int{1, 2},
 			},
 		},
 		question{
 			p: para{
-				str: "PAYPALISHIRING",
-				row: 4,
+				one: []int{3, 2, 4},
+				two: 8,
 			},
 			a: ans{
-				str: "PINALSIGYAHRPI",
+				one: nil,
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.str, convert(p.str,p.row), "输入:%v", p)
+		ast.Equal(a.one, twoSum(p.one, p.two), "输入:%v", p)
 	}
-
-	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
-
 }
