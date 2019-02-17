@@ -90,7 +90,7 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 ### fmt 基础库
 - **Print** 
   it will print number variables, and will not include a line break at the end.
-  它会打印数字变量,但是将不会包括一行的尾部断点.
+  它会打印数字变量,但是将不会包括一行的尾部断点.
 
 - **Printf** 
   it will not print number variables, and will not include a line break at the end.
