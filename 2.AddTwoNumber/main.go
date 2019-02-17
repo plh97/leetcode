@@ -7,39 +7,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-// * -> 取值
-// & -> 取址
-func l_3(aa, bb, cc int) *ListNode {
-	var c *ListNode = &ListNode{
-		Val:  cc,
-		Next: nil,
-	}
-	var b *ListNode = &ListNode{
-		Val:  bb,
-		Next: c,
-	}
-	return &ListNode{
-		Val:  aa,
-		Next: b,
-	}
-}
-func l_2(aa, bb int) *ListNode {
-	var b *ListNode = &ListNode{
-		Val:  bb,
-		Next: nil,
-	}
-	return &ListNode{
-		Val:  aa,
-		Next: b,
-	}
-}
-func l_1(aa int) *ListNode {
-	return &ListNode{
-		Val:  aa,
-		Next: nil,
-	}
-}
-
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	// 用于保存头部
 	l3 := &ListNode{}
