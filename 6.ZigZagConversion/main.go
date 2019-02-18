@@ -1,8 +1,7 @@
-package main
+package convert
 
 import (
 	"bytes"
-	"fmt"
 )
 
 // 有意思啊.传值还是传指针, very fun
@@ -34,7 +33,7 @@ func convert(s string, numRows /*总列数*/ int) string {
 		// index++
 	}
 	// 中间行
-	for i := 0; i < len(s); i += (2*numRows - 2) {
+	for i := 0; i < numRows-2; i++ {
 		ss.WriteByte(s[i])
 		// index++
 	}
@@ -47,6 +46,6 @@ func convert(s string, numRows /*总列数*/ int) string {
 	return ss.String()
 }
 
-func main() {
-	fmt.Println(convert("PAYPALISHIRING", 4))
-}
+// func main() {
+// 	fmt.Println(convert("PAYPALISHIRING", 4))
+// }
