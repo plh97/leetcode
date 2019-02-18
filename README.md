@@ -1,9 +1,6 @@
-
-
 [![LeetCode 完成数](https://img.shields.io/badge/pengliheng-6-blue.svg)](https://leetcode.com/pengliheng/)
 [![codeCov](https://codecov.io/gh/pengliheng/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/pengliheng/leetcode)
 [![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/pengliheng/leetcode)
-
 
 ### Golang 是一个非常强大的语言 很棒!
 Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包。再如，Go 语言接受了以 ErLang 语言为代表的面向消息编程思想，支持 goroutine 和通道，并推荐使用消息而不是共享内存来进行并发编程。总体来说，Go 语言是一个非常现代化的语言，精小但非常强大。
@@ -25,7 +22,6 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 - **网络编程** 这一块目前应用最广，包括Web应用、API应用、下载应用、
 - **内存数据库** 前一段时间 google 开发的 groupCache，couchBase的部分组建
 - **云平台** 目前国外很多云平台在采用Go开发，CloudFoundy的部分组建，前VMare的技术总监自己出来搞的apcera云平台。
-
 
 ### Golang 语言的基础
 - 包声明
@@ -54,7 +50,6 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 |   byte    |  uint8别名  |
 |   rune    |  int32别名  | 表示一个 Unicode 码点 |
 
-
 ### fmt 基础库
 - **Print** 
   it will print number variables, and will not include a line break at the end.
@@ -81,3 +76,34 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 ### 我的观念
 程序员的职场核心竞争力是coding的能力,这个是硬指标
 软指标 忠诚度, 做事靠谱程度等
+
+
+### 采访一位刷了1000道leetcode的大佬
+```
+ali peng, [16.02.19 15:34]
+大佬您好, 看到您用golang的刷题记录, 感觉真的很棒,特地来电报膜拜一下
+
+aQua Yi, [18.02.19 20:39]
+谢谢，我只是把我做过的题目记录了下来而已。
+
+ali peng, [18.02.19 20:40]
+🙃
+
+ali peng, [18.02.19 20:41]
+大佬 能否给刚入职场一年的新人点建议,, 刷题有作用么, 对于golang后端开发来说
+
+aQua Yi, [18.02.19 21:46]
+哈哈，我是一名机械工程师，还没有入职呢。学习编程是业余爱好。
+
+aQua Yi, [18.02.19 21:47]
+不过，刷题确实很锻炼能力，我现在看我早期的刷题记录，都觉得很烂。
+
+ali peng, [18.02.19 22:49]
+🙃谢谢反馈,
+
+ali peng, [18.02.19 22:52]
+😂感觉大佬您的编程能力比我身边的同事都厉害
+
+ali peng, [18.02.19 22:53]
+让我感觉我们写代码就光只会调用几个函数库了
+```
