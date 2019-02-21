@@ -1,7 +1,5 @@
 package addTwoNumbers
 
-import "fmt"
-
 type ListNode struct {
 	Val  int
 	Next *ListNode
@@ -13,9 +11,8 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	// 用于保存过程中的 list node
 	currentL3 := l3
 	add := 0
-	for l1 != nil || l2 != nil || add!=0 {
+	for l1 != nil || l2 != nil || add != 0 {
 		sum := 0
-		fmt.Println(l1, l2, add)
 		if l1 != nil {
 			sum += l1.Val
 			l1 = l1.Next
@@ -34,4 +31,3 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return l3.Next
 }
-
