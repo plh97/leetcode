@@ -1,11 +1,14 @@
-## [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+## [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 ###### 2019/02/21
 
+### 题目
+数字是否是回文
+
 > #### 思路
 > ```go
-> strconv.Atoi(str)  // 核心函数 -> 返回数字以及错误
-> strings.TrimSpace  // 用于去除两端空格
+> strconv.Atoi(str) // 核心函数 -> 返回数字以及错误
+> strings.TrimSpace // 用于去除两端空格
 > ```
 > #### 特殊情况的考虑
 > `-`,`+`,`.`

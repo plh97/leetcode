@@ -20,11 +20,7 @@ func clean(s string) string {
 		case "+":
 			if x == 0 {
 				continue
-			} else {
-				return s[:x]
 			}
-		case ".":
-			return s[:x]
 		default:
 			return s[:x]
 		}
