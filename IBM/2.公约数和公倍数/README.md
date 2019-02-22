@@ -1,5 +1,3 @@
-## [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-
 ###### 2019/02/19
 
 > #### 思路
