@@ -3,17 +3,13 @@ package fibDp
 var dp map[int]int = make(map[int]int)
 
 // 动态规划版本的斐波那契数列 可一秒内计算到 fib(3521155), 调用7M次函数进行递归 这是c++的性能
-var i int
-
 func fibDp(n int) int {
-	i++
 	if res, ok := dp[n]; ok {
 		return res
 	}
 	if n == 0 {
 		return 0
-	}
-	if n == 1 {
+	}else if n == 1 {
 		return 1
 	}
 	res := fibDp(n-1) + fibDp(n-2)
