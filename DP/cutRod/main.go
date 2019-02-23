@@ -24,15 +24,15 @@ func cutRodDp(p [8]int, n int) int {
 	return q
 }
 
-func cutRod(p [8]int, n int) int {
-	if n == 0 {
-		return 0
-	}
-	q := math.MinInt8
-	for i := 1; i <= n; i++ {
-		if q < (p[i] + cutRod(p, n-i)) {
-			q = p[i] + cutRod(p, n-i)
-		}
-	}
-	return q
-}
+// func cutRod(p [8]int, n int) int {
+// 	if n == 0 {
+// 		return 0
+// 	}
+// 	q := math.MinInt8
+// 	for i := 1; i <= n; i++ {
+// 		if q < (p[i] + cutRod(p, n-i)) {
+// 			q = p[i] + cutRod(p, n-i)
+// 		}
+// 	}
+// 	return q
+// }

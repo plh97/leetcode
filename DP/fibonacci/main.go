@@ -18,12 +18,12 @@ func fibDp(n int) int {
 }
 
 // 直接递归, 没有动态规划最大 fib(43)
-func fib(n int) int {
-	if n == 1 {
-		return 1
-	}
-	if n == 0 {
-		return 0
-	}
-	return fib(n-1) + fib(n-2)
-}
+// func fib(n int) int {
+// 	if n == 1 {
+// 		return 1
+// 	}
+// 	if n == 0 {
+// 		return 0
+// 	}
+// 	return fib(n-1) + fib(n-2)
+// }
