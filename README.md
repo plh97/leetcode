@@ -1,54 +1,7 @@
-[![LeetCode 完成数](https://img.shields.io/badge/pengliheng-7-blue.svg)](https://leetcode.com/pengliheng/)
+[![LeetCode 完成数](https://img.shields.io/badge/pengliheng-10-blue.svg)](https://leetcode.com/pengliheng/)
 [![codeCov](https://codecov.io/gh/pengliheng/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/pengliheng/leetcode)
 [![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/pengliheng/leetcode)
 
-### Bug Free
-为什么我的代码总被同事吐槽bug多呢?
-浅层的考虑是,考虑的不够周全,
-深层的考虑是,写代码的习惯不好.
-例如:
-- `LeetCode`做题不能一次性通过.老是修改,因为在计算机里面修改文字是没有成本的
-- 但是一个工程师思维不严谨,造成的问题是奔溃性的,无法修复的.
-- 这样持续下去会造成什么样的问题呢?
-- 写代码很随意,没有经过深思熟虑.写错了直接编译一次嘛.
-- 但是很多bug是无法通过编译能够发现的.尤其是JavaScript这种动态语言,
-- 所以一定要养成好习惯.尤其是在写JavaScript这种动态语言的时候.
-
-### 我的观念
-- **硬指标** 程序员的职场核心竞争力是coding的能力, 这个靠刷题可以极大地提升coding能力
-- **软指标** 忠诚度, 做事靠谱程度等
-
-
-### 刷题能极大地提高编码能力
-###### 采访一位刷了1000道leetcode的[大佬](https://github.com/aQuaYi/LeetCode-in-Go)
-```
-ali peng, [16.02.19 15:34]
-大佬您好, 看到您用golang的刷题记录, 感觉真的很棒,特地来电报膜拜一下
-
-aQua Yi, [18.02.19 20:39]
-谢谢，我只是把我做过的题目记录了下来而已。
-
-ali peng, [18.02.19 20:40]
-🙃
-
-ali peng, [18.02.19 20:41]
-大佬 能否给刚入职场一年的新人点建议,, 刷题有作用么, 对于golang后端开发来说
-
-aQua Yi, [18.02.19 21:46]
-哈哈，我是一名机械工程师，还没有入职呢。学习编程是业余爱好。
-
-aQua Yi, [18.02.19 21:47]
-不过，刷题确实很锻炼能力，我现在看我早期的刷题记录，都觉得很烂。
-
-ali peng, [18.02.19 22:49]
-🙃谢谢反馈,
-
-ali peng, [18.02.19 22:52]
-😂感觉大佬您的编程能力比我身边的同事都厉害
-
-ali peng, [18.02.19 22:53]
-让我感觉我们写代码就光只会调用几个函数库了
-```
 
 ### 刷题原则
 - 广度优先
@@ -56,11 +9,8 @@ ali peng, [18.02.19 22:53]
 
 
 ### 初学者状态
-  - 不知道特定的算法,数据结构
-  - 没有正确的思维方式
-  - 不知道最优解在哪里想
-  - 做题没有任何感觉,代码不知道从哪里写起
+- 不知道特定的算法,数据结构
+- 没有正确的思维方式
+- 不知道最优解在哪里想
+- 做题没有任何感觉,代码不知道从哪里写起
 
-
-### 初学者刷题的误区
-初学者其实最忌讳的就是独立思考,你特么连树结构都不知道,你就去做树结构的题目,那怎么可能做出来,除非你能创造一个`树结构`,可能么?那我们还学什么数据结构与算法,独立思考是高手的资格,初学者独立思考两个小时,那不就是浪费时间吗?当刷题刷到200道以上,再谈独立思考,初学者刷题就是要看着答案刷,再去补数据结构算法的一些基础.over.
