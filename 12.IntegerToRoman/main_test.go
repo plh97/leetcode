@@ -58,7 +58,7 @@ func Test_OK(t *testing.T) {
 				one: 58,
 			},
 			a: ans{
-				str: "IX",
+				str: "LVIII",
 			},
 		},
 	}
