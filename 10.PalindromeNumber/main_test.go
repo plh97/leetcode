@@ -1,4 +1,4 @@
-package isMatch
+package main
 
 import (
 	"testing"
@@ -26,6 +26,101 @@ func Test_OK(t *testing.T) {
 	ast := assert.New(t)
 
 	qs := []question{
+
+		question{
+			p: para{
+				one: "aaa",
+				two: "a*a",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
+
+		question{
+			p: para{
+				one: "a",
+				two: ".*..a*",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+		question{
+			p: para{
+				one: "aab",
+				two: "c*a*b",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
+		question{
+			p: para{
+				one: "",
+				two: ".",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+
+		question{
+			p: para{
+				one: "a",
+				two: "ab*a",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+
+		question{
+			p: para{
+				one: "aa",
+				two: "a*",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
+
+		question{
+			p: para{
+				one: "a",
+				two: "",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+		question{
+			p: para{
+				one: "1111",
+				two: "22222",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+		question{
+			p: para{
+				one: "ab",
+				two: ".*c",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+		question{
+			p: para{
+				one: "",
+				two: ".*",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
 		question{
 			p: para{
 				one: "mississippi",
@@ -35,69 +130,51 @@ func Test_OK(t *testing.T) {
 				boolean: true,
 			},
 		},
-		// question{
-		// 	p: para{
-		// 		one: "ab",
-		// 		two: ".*",
-		// 	},
-		// 	a: ans{
-		// 		boolean: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: "aab",
-		// 		two: "c*a*b",
-		// 	},
-		// 	a: ans{
-		// 		boolean: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: "aaa",
-		// 		two: "a*a",
-		// 	},
-		// 	a: ans{
-		// 		boolean: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: "aaa",
-		// 		two: "aaaa",
-		// 	},
-		// 	a: ans{
-		// 		boolean: false,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: "ab",
-		// 		two: "a.",
-		// 	},
-		// 	a: ans{
-		// 		boolean: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: "aa",
-		// 		two: "a",
-		// 	},
-		// 	a: ans{
-		// 		boolean: false,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: "aa",
-		// 		two: "a*",
-		// 	},
-		// 	a: ans{
-		// 		boolean: true,
-		// 	},
-		// },
+		question{
+			p: para{
+				one: "ab",
+				two: ".*",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
+		question{
+			p: para{
+				one: "aaa",
+				two: "aaaa",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+		question{
+			p: para{
+				one: "ab",
+				two: "a.",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
+		question{
+			p: para{
+				one: "aa",
+				two: "a",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
+		question{
+			p: para{
+				one: "aa",
+				two: "a*",
+			},
+			a: ans{
+				boolean: true,
+			},
+		},
 	}
 
 	for _, q := range qs {
