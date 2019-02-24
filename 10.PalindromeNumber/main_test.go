@@ -1,4 +1,4 @@
-package main
+package isMatch
 
 import (
 	"testing"
@@ -27,6 +27,15 @@ func Test_OK(t *testing.T) {
 
 	qs := []question{
 
+		question{
+			p: para{
+				one: "mississippi",
+				two: "mis*is*p*.",
+			},
+			a: ans{
+				boolean: false,
+			},
+		},
 		question{
 			p: para{
 				one: "aaa",
