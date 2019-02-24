@@ -1,4 +1,4 @@
-package maxArea
+package intToRoman
 
 import (
 	"testing"
@@ -7,7 +7,7 @@ import (
 )
 
 type para struct {
-	one []int
+	one int
 }
 
 type ans struct {
@@ -28,18 +28,35 @@ func Test_OK(t *testing.T) {
 
 		question{
 			p: para{
-				one: []int{1, 8, 6, 2, 5, 4, 8, 3, 7},
+				one: 3,
 			},
 			a: ans{
-				boolean: false,
-				num: 49,
+				str: "III",
+			},
+		},
+
+		question{
+			p: para{
+				one: 4,
+			},
+			a: ans{
+				str: "IV",
+			},
+		},
+
+		question{
+			p: para{
+				one: 9,
+			},
+			a: ans{
+				str: "IX",
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.num, maxArea(p.one), "输入:%v", p)
+		ast.Equal(a.num, intToRoman(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
