@@ -1,4 +1,4 @@
-package romanToInt
+package main
 
 import (
 	"testing"
@@ -7,11 +7,11 @@ import (
 )
 
 type para struct {
-	one string
+	one []string
 }
 
 type ans struct {
-	one int
+	one string
 	two bool
 }
 
@@ -27,44 +27,35 @@ func Test_OK(t *testing.T) {
 
 		question{
 			p: para{
-				one: "III",
+				one: []string{"flower", "flow", "flight"},
 			},
 			a: ans{
-				one: 3,
+				one: "fl",
 			},
 		},
 
 		question{
 			p: para{
-				one: "IV",
+				one: []string{"dog", "racecar", "car"},
 			},
 			a: ans{
-				one: 4,
+				one: "",
 			},
 		},
 
 		question{
 			p: para{
-				one: "IX",
+				one: []string{},
 			},
 			a: ans{
-				one: 9,
-			},
-		},
-
-		question{
-			p: para{
-				one: "LVIII",
-			},
-			a: ans{
-				one: 58,
+				one: "",
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, romanToInt(p.one), "输入:%v", p)
+		ast.Equal(a.one, longestCommonPrefix(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
