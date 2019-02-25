@@ -1,4 +1,4 @@
-package main
+package longestCommonPrefix
 
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
@@ -18,6 +18,6 @@ func longestCommonPrefix(strs []string) string {
 	return strs[0]
 }
 
-func main() {
-	longestCommonPrefix([]string{"flow", "flsdf", "floer"})
-}
+// func main() {
+// 	longestCommonPrefix([]string{"flow", "flsdf", "floer"})
+// }
