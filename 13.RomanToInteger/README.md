@@ -1,10 +1,10 @@
-## [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+## [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ###### 2019/02/24
 
 
 ### 题目💗
-数字转罗马字
+罗马字转数字
 先定义出罗马字映射字符串列表
 ```go
 var RomanMap [][]string = [][]string{
