@@ -17,7 +17,3 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return strs[0]
 }
-
-// func main() {
-// 	longestCommonPrefix([]string{"flow", "flsdf", "floer"})
-// }

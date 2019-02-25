@@ -50,7 +50,6 @@ www/leetcode/14.LongestCommonPrefix/main.go:11.3,11.37 1 4
 www/leetcode/14.LongestCommonPrefix/main.go:8.34,10.4 1 1
 www/leetcode/14.LongestCommonPrefix/main.go:11.37,12.32 1 8
 www/leetcode/14.LongestCommonPrefix/main.go:12.32,15.5 2 2
-www/leetcode/14.LongestCommonPrefix/main.go:21.13,23.2 1 0
 mode: atomic
 www/leetcode/2.AddTwoNumber/main.go:8.58,14.41 4 3
 www/leetcode/2.AddTwoNumber/main.go:32.2,32.16 1 3
