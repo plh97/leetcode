@@ -7,11 +7,17 @@
 罗马字转数字
 先定义出罗马字映射字符串列表
 ```go
-var RomanMap [][]string = [][]string{
-	[]string{"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
-	[]string{"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
-	[]string{"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
-	[]string{"", "M", "MM", "MMM", "CD", "D", "DC", "DCC", "DCCC", "DCCCC"},
+RomanMap := map[string]int{
+	"I": 1,
+	"V": 5,
+	"X": 10,
+	"L": 50,
+	"C": 100,
+	"D": 500,
+	"M": 1000,
 }
 ```
-那么剩余的问题就是将`12312`数字分割成`1`,`2`,`3`,`4`并一一映射
+`III`如何转成数字3呢,
+这里采用消耗策略,`III`从左到右开始计算消耗,
+`IV`如何转成数字4呢,
+有一种例外就是`IV`,当每次循环的时候`I`<`V`的时候,将两个字母合并成 `res:=V-I`也就是4.
