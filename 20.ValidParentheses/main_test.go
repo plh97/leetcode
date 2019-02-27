@@ -1,4 +1,4 @@
-package main
+package isValid
 
 import (
 	"testing"
@@ -7,12 +7,11 @@ import (
 )
 
 type para struct {
-	one []int
+	one string
 }
 
 type ans struct {
-	one [][]int
-	two bool
+	one bool
 }
 
 type question struct {
@@ -27,47 +26,63 @@ func Test_OK(t *testing.T) {
 
 		question{
 			p: para{
-				one: []int{-1, 0, 1, 2, -1, -4},
+				one: "(])",
 			},
 			a: ans{
-				one: [][]int{
-					[]int{-1, -1, 2},
-					[]int{-1, 0, 1},
-				},
+				one: false,
 			},
 		},
 
 		question{
 			p: para{
-				one: []int{-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0},
+				one: "]",
 			},
 			a: ans{
-				one: [][]int{
-					[]int{-5, 1, 4},
-					[]int{-4, 0, 4},
-					[]int{-4, 1, 3},
-					[]int{-2, -2, 4},
-					[]int{-2, 1, 1},
-					[]int{0, 0, 0},
-				},
+				one: false,
 			},
 		},
 
 		question{
 			p: para{
-				one: []int{0, 0, 0, 0},
+				one: "{}",
 			},
 			a: ans{
-				one: [][]int{
-					[]int{0, 0, 0},
-				},
+				one: true,
 			},
 		},
+
+		question{
+			p: para{
+				one: "[]",
+			},
+			a: ans{
+				one: true,
+			},
+		},
+
+		question{
+			p: para{
+				one: "[]{}()",
+			},
+			a: ans{
+				one: true,
+			},
+		},
+
+		question{
+			p: para{
+				one: "(]",
+			},
+			a: ans{
+				one: false,
+			},
+		},
+
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, threeSum(p.one), "输入:%v", p)
+		ast.Equal(a.one, isValid(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
