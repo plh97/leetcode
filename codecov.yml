@@ -1,6 +1,6 @@
-coverage:
-  status:
-    project:
-      users:
-        paths:
-          - 1.TwoSum/
+# coverage:
+#   status:
+#     project:
+#       users:
+#         paths:
+#           - 1.TwoSum/
