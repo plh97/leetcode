@@ -1,7 +1,7 @@
-## [15. 3Sum](https://leetcode.com/problems/3sum/)
+## [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-###### 2019/02/25
+###### 2019/02/27
 
 
 ### 题目💗
-medium不讲
+easy不讲
