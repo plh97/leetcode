@@ -1,4 +1,4 @@
-package mergeTwoLists
+package mergetwolists
 
 /**
  * Definition for singly-linked list.

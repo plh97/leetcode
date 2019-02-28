@@ -1,4 +1,4 @@
-package mergeTwoLists
+package mergetwolists
 
 import (
 	"testing"
