@@ -46,7 +46,6 @@ func MakeListNode(is []int) *ListNode {
 	if len(is) == 0 {
 		return nil
 	}
-
 	res := &ListNode{
 		Val: is[0],
 	}
