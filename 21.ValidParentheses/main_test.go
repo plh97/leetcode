@@ -54,6 +54,16 @@ func Test_OK(t *testing.T) {
 				one: MakeListNode([]int{1,2}),
 			},
 		},
+
+		question{
+			p: para{
+				one: MakeListNode([]int{}),
+				two: MakeListNode([]int{2}),
+			},
+			a: ans{
+				one: MakeListNode([]int{2}),
+			},
+		},
 	}
 
 	for _, q := range qs {
