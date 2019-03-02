@@ -42,6 +42,24 @@ func Test_OK(t *testing.T) {
 				str: "PINALSIGYAHRPI",
 			},
 		},
+		question{
+			p: para{
+				str: "PAYPALISHIRING",
+				row: 1,
+			},
+			a: ans{
+				str: "PAYPALISHIRING",
+			},
+		},
+		question{
+			p: para{
+				str: "PA",
+				row: 2,
+			},
+			a: ans{
+				str: "PA",
+			},
+		},
 	}
 
 	for _, q := range qs {
