@@ -10,9 +10,8 @@ type ListNode struct {
 // MakeListNode 将连续结构的数组转化成 -> 单链结构数据的 -> 取址
 func MakeListNode(is []int) *ListNode {
 	if len(is) == 0 {
-		return nil
+		return &ListNode{}
 	}
-
 	res := &ListNode{
 		Val: is[0],
 	}

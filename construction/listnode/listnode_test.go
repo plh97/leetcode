@@ -48,12 +48,46 @@ func Test_OK(t *testing.T) {
 				one: MakeListNode([]int{1, 6, 4}),
 			},
 		},
-	};
+		question{
+			p: para{
+				one: MakeListNode([]int{1, 6}),
+			},
+			a: ans{
+				one: MakeListNode([]int{1, 6}),
+			},
+		},
+		question{
+			p: para{
+				one: MakeListNode([]int{1}),
+			},
+			a: ans{
+				one: MakeListNode([]int{1}),
+			},
+		},
+		question{
+			p: para{
+				one: MakeListNode([]int{}),
+			},
+			a: ans{
+				one: &ListNode{},
+			},
+		},
+	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one.Val, p.one.Val, "输入:%v", p)
-		ast.Equal(a.one.Next.Val, p.one.Next.Val, "输入:%v", p)
-		ast.Equal(a.one.Next.Next.Val, p.one.Next.Next.Val, "输入:%v", p)
+		if a.one != nil {
+			ast.Equal(a.one.Val, p.one.Val, "输入:%v", p)
+		} else {
+			ast.Equal(nil, p.one, "输入:%v", p)
+			ast.Equal(nil, a.one, "输入:%v", p)
+		}
+		if a.one != nil && a.one.Next != nil {
+			ast.Equal(a.one.Next.Val, p.one.Next.Val, "输入:%v", p)
+		}
+		if a.one != nil && a.one.Next != nil && a.one.Next.Next != nil {
+			ast.Equal(a.one.Next.Next.Val, p.one.Next.Next.Val, "输入:%v", p)
+		}
+
 	}
 }
