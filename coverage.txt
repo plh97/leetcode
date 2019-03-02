@@ -110,23 +110,21 @@ www/leetcode/20.ValidParentheses/main.go:32.55,34.4 1 6
 mode: atomic
 www/leetcode/21.ValidParentheses/main.go:17.58,20.15 3 4
 www/leetcode/21.ValidParentheses/main.go:25.2,25.29 1 2
-www/leetcode/21.ValidParentheses/main.go:41.2,41.17 1 2
+www/leetcode/21.ValidParentheses/main.go:38.2,38.17 1 2
 www/leetcode/21.ValidParentheses/main.go:20.15,22.3 1 1
 www/leetcode/21.ValidParentheses/main.go:22.8,22.22 1 3
 www/leetcode/21.ValidParentheses/main.go:22.22,24.3 1 1
 www/leetcode/21.ValidParentheses/main.go:25.29,26.16 1 8
-www/leetcode/21.ValidParentheses/main.go:39.3,39.17 1 8
+www/leetcode/21.ValidParentheses/main.go:36.3,36.17 1 8
 www/leetcode/21.ValidParentheses/main.go:26.16,29.4 2 2
-www/leetcode/21.ValidParentheses/main.go:29.9,29.23 1 6
-www/leetcode/21.ValidParentheses/main.go:29.23,32.4 2 0
-www/leetcode/21.ValidParentheses/main.go:32.9,32.29 1 6
-www/leetcode/21.ValidParentheses/main.go:32.29,35.4 2 2
-www/leetcode/21.ValidParentheses/main.go:35.9,38.4 2 4
-www/leetcode/21.ValidParentheses/main.go:45.39,46.18 1 12
-www/leetcode/21.ValidParentheses/main.go:49.2,53.31 3 10
-www/leetcode/21.ValidParentheses/main.go:57.2,57.12 1 10
-www/leetcode/21.ValidParentheses/main.go:46.18,48.3 1 2
-www/leetcode/21.ValidParentheses/main.go:53.31,56.3 2 10
+www/leetcode/21.ValidParentheses/main.go:29.9,29.29 1 6
+www/leetcode/21.ValidParentheses/main.go:29.29,32.4 2 2
+www/leetcode/21.ValidParentheses/main.go:32.9,35.4 2 4
+www/leetcode/21.ValidParentheses/main.go:42.39,43.18 1 12
+www/leetcode/21.ValidParentheses/main.go:46.2,50.31 3 10
+www/leetcode/21.ValidParentheses/main.go:54.2,54.12 1 10
+www/leetcode/21.ValidParentheses/main.go:43.18,45.3 1 2
+www/leetcode/21.ValidParentheses/main.go:50.31,53.3 2 10
 mode: atomic
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:3.39,6.22 2 2
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:9.2,9.24 1 2
