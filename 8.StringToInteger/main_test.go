@@ -98,6 +98,22 @@ func Test_OK(t *testing.T) {
 				num: -5,
 			},
 		},
+		question{
+			p: para{
+				str: "24234324234",
+			},
+			a: ans{
+				num: 2147483647,
+			},
+		},
+		question{
+			p: para{
+				str: "-24234324234",
+			},
+			a: ans{
+				num: -2147483648,
+			},
+		},
 	}
 
 	for _, q := range qs {
