@@ -32,11 +32,6 @@ func MakeListNode(is []int) *ListNode {
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	res := &ListNode{}
 	top := res
-	if l1 == nil {
-		return l2
-	} else if l2 == nil {
-		return l1
-	}
 	for l1 != nil || l2 != nil {
 		if l1 == nil {
 			res.Next = &ListNode{Val: l2.Val}
