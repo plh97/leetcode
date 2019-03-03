@@ -247,6 +247,11 @@ www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:4.19,6.3 1 1
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:7.35,8.27 1 11
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:8.27,11.4 2 6
 mode: atomic
+www/leetcode/27.RemoveElement/main.go:3.45,5.33 2 2
+www/leetcode/27.RemoveElement/main.go:12.2,12.18 1 2
+www/leetcode/27.RemoveElement/main.go:5.33,6.21 1 12
+www/leetcode/27.RemoveElement/main.go:6.21,10.4 3 5
+mode: atomic
 www/leetcode/3.LongestSubstringWithoutRepeatingCharacters/main.go:3.30,5.30 2 60
 www/leetcode/3.LongestSubstringWithoutRepeatingCharacters/main.go:8.2,8.25 1 60
 www/leetcode/3.LongestSubstringWithoutRepeatingCharacters/main.go:5.30,7.3 1 79
