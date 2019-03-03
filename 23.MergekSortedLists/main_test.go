@@ -1,4 +1,4 @@
-package mergetwolists
+package mergeklists
 
 import (
 	"testing"
@@ -7,8 +7,7 @@ import (
 )
 
 type para struct {
-	one *ListNode
-	two *ListNode
+	one []*ListNode
 }
 
 type ans struct {
@@ -27,58 +26,59 @@ func Test_OK(t *testing.T) {
 
 		question{
 			p: para{
-				one: MakeListNode([]int{1, 2, 4}),
-				two: MakeListNode([]int{1, 3, 4}),
+				one: []*ListNode{
+					MakeListNode([]int{1, 4, 5}),
+					MakeListNode([]int{1, 3, 4}),
+					MakeListNode([]int{2, 6}),
+				},
 			},
 			a: ans{
-				one: MakeListNode([]int{1, 1, 2, 3, 4, 4}),
+				one: MakeListNode([]int{1, 1, 2, 3, 4, 4, 5, 6}),
 			},
 		},
 
 		question{
 			p: para{
-				one: MakeListNode([]int{1}),
-				two: MakeListNode([]int{}),
+				one: []*ListNode{
+					MakeListNode([]int{2}),
+					MakeListNode([]int{}),
+					MakeListNode([]int{-1}),
+				},
 			},
 			a: ans{
-				one: MakeListNode([]int{1}),
+				one: MakeListNode([]int{-1, 2}),
 			},
 		},
 
 		question{
 			p: para{
-				one: MakeListNode([]int{1}),
-				two: MakeListNode([]int{2}),
+				one: []*ListNode{
+					MakeListNode([]int{}),
+					MakeListNode([]int{-1, 5, 11}),
+					MakeListNode([]int{}),
+					MakeListNode([]int{6, 10}),
+				},
 			},
 			a: ans{
-				one: MakeListNode([]int{1, 2}),
+				one: MakeListNode([]int{-1, 5, 6, 10, 11}),
 			},
 		},
 
 		question{
 			p: para{
+				one: []*ListNode{
+					MakeListNode([]int{}),
+				},
+			},
+			a: ans{
 				one: MakeListNode([]int{}),
-				two: MakeListNode([]int{2}),
-			},
-			a: ans{
-				one: MakeListNode([]int{2}),
-			},
-		},
-
-		question{
-			p: para{
-				one: MakeListNode([]int{2}),
-				two: MakeListNode([]int{1}),
-			},
-			a: ans{
-				one: MakeListNode([]int{1, 2}),
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, mergeTwoLists(p.one, p.two), "输入:%v", p)
+		ast.Equal(a.one, mergeKLists(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")

@@ -5,4 +5,7 @@
 
 ### 题目💗
 hard,合并n个list链条
-
+采用最屎的办法,
+loop n 条 lists
+res=空节点
+merge(res,lists[i])
