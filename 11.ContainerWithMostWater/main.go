@@ -1,11 +1,5 @@
 package maxArea
 
-// import "fmt"
-// func main() {
-// 	fmt.Println(isMatch("ippi", "p*."))
-// 	// fmt.Println(isMatch("mississippi", "mis*is*ip*."))
-// }
-
 func maxArea(height []int) int {
 	max := 0
 	i, j := 0, len(height)-1

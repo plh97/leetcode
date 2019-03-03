@@ -1,9 +1,14 @@
-package swapPairs
+package reverseKGroup
 
 // Definition for singly-linked list.
 type ListNode struct {
-	Val  int
+	Val int
 	Next *ListNode
+}
+
+func reverseKGroup(head *ListNode, k int) *ListNode {
+
+	return head
 }
 
 // MakeListNode 将连续结构的数组转化成 -> 单链结构数据的 -> 取址
@@ -20,17 +25,4 @@ func MakeListNode(is []int) *ListNode {
 		temp = temp.Next
 	}
 	return res
-}
-
-func swapPairs(head *ListNode) *ListNode {
-	arr := []int{}
-	_head := head
-	for _head != nil {
-		arr = append(arr, _head.Val)
-		_head = _head.Next
-	}
-	for i := 0; i < len(arr)/2; i++ {
-		arr[2*i], arr[2*i+1] = arr[2*i+1], arr[2*i]
-	}
-	return MakeListNode(arr)
 }

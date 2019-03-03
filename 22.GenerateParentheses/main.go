@@ -1,9 +1,5 @@
 package generateparenthesis
 
-import (
-	"fmt"
-)
-
 func generateParenthesis(n int) []string {
 	n = n * 2
 	res := []string{}
@@ -21,7 +17,6 @@ func generateParenthesis(n int) []string {
 		}
 		// check it here
 		if checkOut(ss) {
-			fmt.Println(uint64(i), ss)
 			res = append(res, ss)
 		}
 

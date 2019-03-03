@@ -1,12 +1,5 @@
 package isMatch
 
-// import "fmt"
-
-// func main() {
-// 	fmt.Println(isMatch("ippi", "p*."))
-// 	// fmt.Println(isMatch("mississippi", "mis*is*ip*."))
-// }
-
 func isMatch(s string, p string) bool {
 	sLen := len(s)
 	pLen := len(p)
