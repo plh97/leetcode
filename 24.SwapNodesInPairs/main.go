@@ -1,7 +1,5 @@
 package swapPairs
 
-import "fmt"
-
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -38,14 +36,9 @@ func swapPairs(head *ListNode) *ListNode {
 		arr = append(arr, _head.Val)
 		_head = _head.Next
 	}
-	fmt.Println(arr)
-	// swap if->arr=e=>e%2
-	for i := 0; i < len(arr)/2; i ++ {
-
+	for i := 0; i < len(arr)/2; i++ {
 		arr[2*i], arr[2*i+1] = arr[2*i+1], arr[2*i]
 	}
-	fmt.Println(arr)
-
 	return MakeListNode(arr)
 
 }
