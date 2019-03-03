@@ -23,26 +23,35 @@ func Test_OK(t *testing.T) {
 	ast := assert.New(t)
 
 	qs := []question{
-
 		question{
 			p: para{
-				one: "hello",
-				two: "ll",
+				one: "mississippi",
+				two: "pi",
 			},
 			a: ans{
-				one: 2,
+				one: 9,
 			},
 		},
 
-		question{
-			p: para{
-				one: "aaaaa",
-				two: "bba",
-			},
-			a: ans{
-				one: -1,
-			},
-		},
+		// question{
+		// 	p: para{
+		// 		one: "hello",
+		// 		two: "ll",
+		// 	},
+		// 	a: ans{
+		// 		one: 2,
+		// 	},
+		// },
+
+		// question{
+		// 	p: para{
+		// 		one: "aaaaa",
+		// 		two: "bba",
+		// 	},
+		// 	a: ans{
+		// 		one: -1,
+		// 	},
+		// },
 	}
 
 	for _, q := range qs {
