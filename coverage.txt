@@ -222,12 +222,12 @@ www/leetcode/24.SwapNodesInPairs/main.go:34.2,34.26 1 3
 www/leetcode/24.SwapNodesInPairs/main.go:27.18,30.3 2 5
 www/leetcode/24.SwapNodesInPairs/main.go:31.34,33.3 1 2
 mode: atomic
-www/leetcode/25.ReverseNodesInK-Group/main.go:9.53,12.18 3 6
-www/leetcode/25.ReverseNodesInK-Group/main.go:16.2,16.18 1 6
+www/leetcode/25.ReverseNodesInK-Group/main.go:9.53,12.18 3 7
+www/leetcode/25.ReverseNodesInK-Group/main.go:16.2,16.18 1 7
 www/leetcode/25.ReverseNodesInK-Group/main.go:21.2,21.35 1 4
 www/leetcode/25.ReverseNodesInK-Group/main.go:35.2,35.26 1 4
 www/leetcode/25.ReverseNodesInK-Group/main.go:12.18,15.3 2 23
-www/leetcode/25.ReverseNodesInK-Group/main.go:16.18,18.3 1 2
+www/leetcode/25.ReverseNodesInK-Group/main.go:16.18,18.3 1 3
 www/leetcode/25.ReverseNodesInK-Group/main.go:21.35,23.21 2 10
 www/leetcode/25.ReverseNodesInK-Group/main.go:23.21,27.4 2 2
 www/leetcode/25.ReverseNodesInK-Group/main.go:27.9,27.26 1 8
@@ -236,10 +236,10 @@ www/leetcode/25.ReverseNodesInK-Group/main.go:30.9,33.4 2 8
 www/leetcode/25.ReverseNodesInK-Group/main.go:39.36,40.36 1 8
 www/leetcode/25.ReverseNodesInK-Group/main.go:45.2,45.12 1 8
 www/leetcode/25.ReverseNodesInK-Group/main.go:40.36,44.3 3 8
-www/leetcode/25.ReverseNodesInK-Group/main.go:49.39,50.18 1 18
+www/leetcode/25.ReverseNodesInK-Group/main.go:49.39,50.18 1 21
 www/leetcode/25.ReverseNodesInK-Group/main.go:53.2,57.31 3 18
 www/leetcode/25.ReverseNodesInK-Group/main.go:61.2,61.12 1 18
-www/leetcode/25.ReverseNodesInK-Group/main.go:50.18,52.3 1 0
+www/leetcode/25.ReverseNodesInK-Group/main.go:50.18,52.3 1 3
 www/leetcode/25.ReverseNodesInK-Group/main.go:57.31,60.3 2 51
 mode: atomic
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:3.39,6.22 2 2

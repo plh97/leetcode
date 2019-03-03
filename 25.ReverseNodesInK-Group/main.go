@@ -24,9 +24,9 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
 			// 
 			currArr = arr[i:]
 			res = append(res, currArr...)
-		} else if len(arr) < k {
-			currArr = arr
-			res = append(res, reverseGroup(currArr)...)
+		// } else if len(arr) < k {
+		// 	currArr = arr
+		// 	res = append(res, reverseGroup(currArr)...)
 		} else {
 			currArr = arr[i : i+k]
 			res = append(res, reverseGroup(currArr)...)
