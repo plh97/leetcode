@@ -1,4 +1,4 @@
-package main
+package generateparenthesis
 
 import (
 	"fmt"
@@ -89,9 +89,4 @@ func isContain(stack []string, s string) bool {
 		}
 	}
 	return false
-}
-
-func main() {
-	res := generateParenthesis(6)
-	fmt.Println(res)
 }
