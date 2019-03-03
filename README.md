@@ -1,4 +1,4 @@
-[![LeetCode 完成数](https://img.shields.io/badge/pengliheng-21-blue.svg)](https://leetcode.com/pengliheng/)
+[![LeetCode 完成数](https://img.shields.io/badge/pengliheng-24-blue.svg)](https://leetcode.com/pengliheng/)
 [![codeCov](https://codecov.io/gh/pengliheng/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/pengliheng/leetcode)
 [![Build Status](https://www.travis-ci.org/pengliheng/leetcode.svg?branch=master)](https://www.travis-ci.org/pengliheng/leetcode)
 

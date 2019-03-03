@@ -40,5 +40,4 @@ func swapPairs(head *ListNode) *ListNode {
 		arr[2*i], arr[2*i+1] = arr[2*i+1], arr[2*i]
 	}
 	return MakeListNode(arr)
-
 }

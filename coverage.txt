@@ -211,6 +211,17 @@ www/leetcode/23.MergekSortedLists/main.go:59.17,62.5 2 3
 www/leetcode/23.MergekSortedLists/main.go:62.10,64.5 1 4
 www/leetcode/23.MergekSortedLists/main.go:67.15,69.3 1 1
 mode: atomic
+www/leetcode/24.SwapNodesInPairs/main.go:17.39,18.18 1 6
+www/leetcode/24.SwapNodesInPairs/main.go:21.2,25.31 3 6
+www/leetcode/24.SwapNodesInPairs/main.go:29.2,29.12 1 6
+www/leetcode/24.SwapNodesInPairs/main.go:18.18,20.3 1 0
+www/leetcode/24.SwapNodesInPairs/main.go:25.31,28.3 2 9
+www/leetcode/24.SwapNodesInPairs/main.go:32.42,35.19 3 2
+www/leetcode/24.SwapNodesInPairs/main.go:39.2,39.34 1 2
+www/leetcode/24.SwapNodesInPairs/main.go:42.2,42.26 1 2
+www/leetcode/24.SwapNodesInPairs/main.go:35.19,38.3 2 5
+www/leetcode/24.SwapNodesInPairs/main.go:39.34,41.3 1 2
+mode: atomic
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:3.39,6.22 2 2
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:9.2,9.24 1 2
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:6.22,8.3 1 13
