@@ -51,7 +51,7 @@ func Test_OK(t *testing.T) {
 				two: MakeListNode([]int{2}),
 			},
 			a: ans{
-				one: MakeListNode([]int{1,2}),
+				one: MakeListNode([]int{1, 2}),
 			},
 		},
 
@@ -62,6 +62,16 @@ func Test_OK(t *testing.T) {
 			},
 			a: ans{
 				one: MakeListNode([]int{2}),
+			},
+		},
+
+		question{
+			p: para{
+				one: MakeListNode([]int{2}),
+				two: MakeListNode([]int{1}),
+			},
+			a: ans{
+				one: MakeListNode([]int{1, 2}),
 			},
 		},
 	}
