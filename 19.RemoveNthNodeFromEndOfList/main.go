@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package removenthfromend
 
 /**
  * Definition for singly-linked list.
@@ -52,10 +50,4 @@ func MakeListNode(is []int) *ListNode {
 		temp = temp.Next
 	}
 	return res
-}
-
-func main() {
-
-	res := removeNthFromEnd(MakeListNode([]int{1, 2}), 2)
-	fmt.Println(res)
 }

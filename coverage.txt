@@ -194,7 +194,6 @@ www/leetcode/22.GenerateParentheses/main.go:85.47,86.23 1 16
 www/leetcode/22.GenerateParentheses/main.go:91.2,91.14 1 0
 www/leetcode/22.GenerateParentheses/main.go:86.23,87.55 1 16
 www/leetcode/22.GenerateParentheses/main.go:87.55,89.4 1 16
-www/leetcode/22.GenerateParentheses/main.go:94.13,97.2 2 0
 mode: atomic
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:3.39,6.22 2 2
 www/leetcode/26.RemoveDuplicatesfromSortedArray/main.go:9.2,9.24 1 2
