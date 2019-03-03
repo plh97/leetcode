@@ -25,6 +25,15 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
+				one: MakeListNode([]int{1}),
+				two: 2,
+			},
+			a: ans{
+				one: MakeListNode([]int{1}),
+			},
+		},
+		question{
+			p: para{
 				one: MakeListNode([]int{1, 2, 3, 4, 5}),
 				two: 2,
 			},
@@ -34,11 +43,38 @@ func Test_OK(t *testing.T) {
 		},
 		question{
 			p: para{
+				one: MakeListNode([]int{1, 2}),
+				two: 3,
+			},
+			a: ans{
+				one: MakeListNode([]int{1, 2}),
+			},
+		},
+		question{
+			p: para{
 				one: MakeListNode([]int{1, 2, 3, 4, 5}),
 				two: 3,
 			},
 			a: ans{
-				one: MakeListNode([]int{3, 2, 1, 5, 4}),
+				one: MakeListNode([]int{3, 2, 1, 4, 5}),
+			},
+		},
+		question{
+			p: para{
+				one: MakeListNode([]int{1, 2, 3, 4}),
+				two: 2,
+			},
+			a: ans{
+				one: MakeListNode([]int{2, 1, 4, 3}),
+			},
+		},
+		question{
+			p: para{
+				one: MakeListNode([]int{1, 2, 3, 4, 5, 6}),
+				two: 2,
+			},
+			a: ans{
+				one: MakeListNode([]int{2, 1, 4, 3, 6, 5}),
 			},
 		},
 	}

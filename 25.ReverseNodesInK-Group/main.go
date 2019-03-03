@@ -8,14 +8,41 @@ type ListNode struct {
 
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	arr := []int{}
+	res := []int{}
 	for head != nil {
 		arr = append(arr, head.Val)
 		head = head.Next
 	}
-	for i := 0; i < len(arr)/2; i++ {
-		arr[2*i], arr[2*i+1] = arr[2*i+1], arr[2*i]
+	if len(arr) < k {
+		return MakeListNode(arr)
 	}
-	return MakeListNode(arr)
+	// TODO:
+	// 提供reverse函数
+	for i := 0; i < len(arr); i += k {
+		currArr := []int{}
+		if i+k > len(arr) {
+			// 
+			currArr = arr[i:]
+			res = append(res, currArr...)
+		} else if len(arr) < k {
+			currArr = arr
+			res = append(res, reverseGroup(currArr)...)
+		} else {
+			currArr = arr[i : i+k]
+			res = append(res, reverseGroup(currArr)...)
+		}
+	}
+	return MakeListNode(res)
+}
+
+// 翻转数组
+func reverseGroup(arr []int) []int {
+	for i, j := 0, len(arr)-1; i < j; {
+		arr[i], arr[j] = arr[j], arr[i]
+		i++
+		j--
+	}
+	return arr
 }
 
 // MakeListNode 将连续结构的数组转化成 -> 单链结构数据的 -> 取址
