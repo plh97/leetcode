@@ -66,27 +66,8 @@ func isValid(s string) bool {
 			if len(stack) == 0 {
 				return false
 			}
-			if isContain(stack, ss) {
-				stack = stack[:len(stack)-1]
-			} else {
-				stack = append(stack, ss)
-			}
+			stack = stack[:len(stack)-1]
 		}
 	}
 	return len(stack) == 0
-}
-
-var Map map[string]string = map[string]string{
-	"[": "]",
-	"(": ")",
-	"{": "}",
-}
-
-func isContain(stack []string, s string) bool {
-	for i := range stack {
-		if _, ok := Map[stack[i]]; ok && s == Map[stack[i]] {
-			return true
-		}
-	}
-	return false
 }
