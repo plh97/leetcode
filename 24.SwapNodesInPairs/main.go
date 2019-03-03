@@ -24,10 +24,9 @@ func MakeListNode(is []int) *ListNode {
 
 func swapPairs(head *ListNode) *ListNode {
 	arr := []int{}
-	_head := head
-	for _head != nil {
-		arr = append(arr, _head.Val)
-		_head = _head.Next
+	for head != nil {
+		arr = append(arr, head.Val)
+		head = head.Next
 	}
 	for i := 0; i < len(arr)/2; i++ {
 		arr[2*i], arr[2*i+1] = arr[2*i+1], arr[2*i]

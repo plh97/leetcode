@@ -1,6 +1,5 @@
-## [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+## [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-###### 2019/3/2
+###### 2019/3/3
 
-
-### 题目💗
+### 题目💗[hard]
