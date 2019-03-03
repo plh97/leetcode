@@ -1,4 +1,4 @@
-package generateParenthesis
+package main
 
 import (
 	"testing"
