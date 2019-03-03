@@ -15,3 +15,17 @@
 - 不知道最优解在哪里想
 - 做题没有任何感觉,代码不知道从哪里写起
 
+
+
+
+
+### vscode-debug-for-golang 哈哈哈,大大方便了我debug,很辛苦才找到滴~
+```json
+{
+  "name": "debug",
+  "type": "go",
+  "request": "launch",
+  "mode": "test",
+  "program": "${fileDirname}"
+}
+```
