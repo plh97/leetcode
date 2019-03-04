@@ -31,7 +31,7 @@ func divide(dividend int, divisor int) int {
 	}
 	if res >= math.MaxInt32 {
 		return math.MaxInt32
-	} else if res < math.MinInt32 {
+	} else if res <= math.MinInt32 {
 		return math.MinInt32
 	}
 	return res
