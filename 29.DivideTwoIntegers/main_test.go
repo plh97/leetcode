@@ -39,7 +39,7 @@ func Test_OK(t *testing.T) {
 				two: -1,
 			},
 			a: ans{
-				one: math.MinInt32,
+				one: math.MinInt32+1,
 			},
 		},
 		question{

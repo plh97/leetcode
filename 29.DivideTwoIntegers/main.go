@@ -29,7 +29,7 @@ func divide(dividend int, divisor int) int {
 			res--
 		}
 	}
-	if res > math.MaxInt32-1 {
+	if res >= math.MaxInt32 {
 		return math.MaxInt32
 	} else if res < math.MinInt32 {
 		return math.MinInt32
