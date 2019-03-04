@@ -29,7 +29,7 @@ func Test_OK(t *testing.T) {
 				two: "pi",
 			},
 			a: ans{
-				one: -1,
+				one: 0,
 			},
 		},
 		question{
