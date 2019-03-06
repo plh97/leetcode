@@ -37,15 +37,16 @@ Go 语言接受了函数式编程的一些想法，支持匿名函数与闭包�
 | continue |     for     | import |  return   |
 
 ### Golang 的基本类型
-|   bool    |   布尔值    |                       |        |        |         |
+|   name    |     名字     |                       |        |        |         |
 | :-------: | :---------: | :-------------------: | :----: | :----: | :-----: |
-|  string   |   字符串    |
+|   bool    |   布尔值     |                       |        |        |         |
+|  string   |   字符串     |
 |    int    |    int8     |         int16         | int32  | int64  |
 |   uint    |    uint8    |        uint16         | uint32 | uint64 | uintptr |
 |  float32  |   float64   |      小数/浮点数      |
 | complex64 | complete128 |         复数          |
-|   byte    |  uint8别名  |
-|   rune    |  int32别名  | 表示一个 Unicode 码点 |
+|   byte    |  uint8别名   |
+|   rune    |  int32别名   | 表示一个 Unicode 码点 |
 
 ### fmt 基础库
 - **Print** 
