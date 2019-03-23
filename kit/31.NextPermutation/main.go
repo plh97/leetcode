@@ -5,7 +5,7 @@ func nextPermutation(nums []int) {
 		l = len(nums) - 1
 		r = len(nums) - 1
 	)
-	for l-1 > 0 && nums[l] <= nums[l-1] {
+	for l-1 >= 0 && nums[l] <= nums[l-1] {
 		l--
 	}
 	if l == 0 {
