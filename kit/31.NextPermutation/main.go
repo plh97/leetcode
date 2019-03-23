@@ -1,6 +1,6 @@
 package nextPermutation
 
-func nextPermutation(nums []int) {
+func nextPermutation(nums []int) []int {
 	var (
 		l = len(nums) - 1
 		r = len(nums) - 1
@@ -14,7 +14,7 @@ func nextPermutation(nums []int) {
 			l++
 			r--
 		}
-		return
+		return nums
 	}
 	k := r
 	for nums[k] <= nums[l-1] {
@@ -26,5 +26,5 @@ func nextPermutation(nums []int) {
 		l++
 		r--
 	}
-	return
+	return nums
 }
