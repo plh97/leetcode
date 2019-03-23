@@ -13,8 +13,7 @@ func findSubstring(s string, words []string) []int {
 		return []int{}
 	}
 	res := []int{}
-	ss := getRadom(10)
-	// ss := getRadom(len(words))
+	ss := getRadom(len(words))
 	wordArray := []string{}
 	for i := range ss {
 		tempString := ""
@@ -67,9 +66,8 @@ func getRadom(n int) [][]int {
 		_lowerRes := getRadom(n - 1)
 		lowerRes := [][]int{}
 		for i := range _lowerRes {
-			// var lenS int = len(_lowerRes[i])
-			var temp []int = _lowerRes[i]
-			temp[0] = 342567
+			var temp = make([]int, len(_lowerRes[i]))
+			copy(temp, _lowerRes[i])
 			lowerRes = append(lowerRes, temp)
 		}
 		for j := range lowerRes {
@@ -80,7 +78,7 @@ func getRadom(n int) [][]int {
 			}
 			lowerRes[j] = append(lowerRes[j], i)
 		}
-		res = append(res, lowerRes[:]...)
+		res = append(res, lowerRes...)
 	}
 	dp[n] = res
 	return res
