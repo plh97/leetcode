@@ -349,6 +349,13 @@ www/leetcode/kit/31.NextPermutation/main.go:12.13,16.4 3 1
 www/leetcode/kit/31.NextPermutation/main.go:20.27,22.3 1 3
 www/leetcode/kit/31.NextPermutation/main.go:24.12,28.3 3 3
 mode: atomic
+www/leetcode/kit/35.SearchInsertPosition/main.go:3.47,4.22 1 4
+www/leetcode/kit/35.SearchInsertPosition/main.go:7.2,7.33 1 3
+www/leetcode/kit/35.SearchInsertPosition/main.go:12.2,12.18 1 1
+www/leetcode/kit/35.SearchInsertPosition/main.go:4.22,6.3 1 1
+www/leetcode/kit/35.SearchInsertPosition/main.go:7.33,8.24 1 9
+www/leetcode/kit/35.SearchInsertPosition/main.go:8.24,10.4 1 2
+mode: atomic
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:3.63,5.34 2 4
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:12.2,12.23 1 4
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:5.34,6.37 1 11
@@ -387,6 +394,19 @@ www/leetcode/kit/6.ZigZagConversion/main.go:19.50,21.36 2 9
 www/leetcode/kit/6.ZigZagConversion/main.go:21.36,23.5 1 7
 www/leetcode/kit/6.ZigZagConversion/main.go:26.57,28.3 1 5
 mode: atomic
+www/leetcode/kit/66.PlusOne/main.go:5.34,7.40 2 2
+www/leetcode/kit/66.PlusOne/main.go:33.2,33.15 1 1
+www/leetcode/kit/66.PlusOne/main.go:7.40,10.15 1 4
+www/leetcode/kit/66.PlusOne/main.go:19.3,19.25 1 4
+www/leetcode/kit/66.PlusOne/main.go:28.3,28.25 1 4
+www/leetcode/kit/66.PlusOne/main.go:10.15,11.22 1 0
+www/leetcode/kit/66.PlusOne/main.go:11.22,13.5 1 0
+www/leetcode/kit/66.PlusOne/main.go:13.10,16.5 2 0
+www/leetcode/kit/66.PlusOne/main.go:19.25,20.34 1 2
+www/leetcode/kit/66.PlusOne/main.go:20.34,23.5 2 1
+www/leetcode/kit/66.PlusOne/main.go:23.10,25.5 1 1
+www/leetcode/kit/66.PlusOne/main.go:28.25,31.4 2 1
+mode: atomic
 www/leetcode/kit/7.ReverseInteger/main.go:7.25,10.11 3 7
 www/leetcode/kit/7.ReverseInteger/main.go:14.2,14.12 1 7
 www/leetcode/kit/7.ReverseInteger/main.go:19.2,20.49 2 7
@@ -410,6 +430,12 @@ www/leetcode/kit/8.StringToInteger/main.go:37.2,37.29 1 10
 www/leetcode/kit/8.StringToInteger/main.go:40.2,40.16 1 9
 www/leetcode/kit/8.StringToInteger/main.go:34.29,36.3 1 1
 www/leetcode/kit/8.StringToInteger/main.go:37.29,39.3 1 1
+mode: atomic
+www/leetcode/kit/88.MergeSortedArray/main.go:3.58,6.39 2 3
+www/leetcode/kit/88.MergeSortedArray/main.go:13.2,13.14 1 3
+www/leetcode/kit/88.MergeSortedArray/main.go:6.39,7.43 1 10
+www/leetcode/kit/88.MergeSortedArray/main.go:7.43,8.34 1 30
+www/leetcode/kit/88.MergeSortedArray/main.go:8.34,10.14 1 10
 mode: atomic
 www/leetcode/kit/9.PalindromeNumber/main.go:7.31,9.20 2 2
 www/leetcode/kit/9.PalindromeNumber/main.go:14.2,14.13 1 1

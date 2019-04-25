@@ -1,5 +1,6 @@
-### 采访一位刷了1000道leetcode的[大佬](https://github.com/aQuaYi/LeetCode-in-Go)
-```
+# 采访一位刷了 1000 道 leetcode 的[大佬](https://github.com/aQuaYi/LeetCode-in-Go)
+
+```bash
 ali peng, [16.02.19 15:34]
 大佬您好, 看到您用golang的刷题记录, 感觉真的很棒,特地来电报膜拜一下
 
@@ -29,4 +30,5 @@ ali peng, [18.02.19 22:53]
 ```
 
 ### 结论
+
 刷题能极大地提高编码能力
