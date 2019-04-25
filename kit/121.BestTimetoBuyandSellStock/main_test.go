@@ -1,4 +1,4 @@
-package plusOne
+package maxProfit
 
 import (
 	"testing"
@@ -7,8 +7,10 @@ import (
 )
 
 type para struct {
-	one []int
-	two int
+	one   []int
+	two   int
+	three []int
+	four  int
 }
 
 type ans struct {
@@ -26,33 +28,17 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: []int{1, 2, 4},
+				one:   []int{4, 5, 6, 0, 0, 0},
 			},
 			a: ans{
-				one: []int{1, 2, 5},
-			},
-		},
-		question{
-			p: para{
-				one: []int{9},
-			},
-			a: ans{
-				one: []int{1, 0},
-			},
-		},
-		question{
-			p: para{
-				one: []int{9, 9},
-			},
-			a: ans{
-				one: []int{1, 0, 0},
+				one: []int{1, 2, 3, 4, 5, 6},
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, plusOne(p.one), "输入:%v", p)
+		ast.Equal(a.one, maxProfit(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
