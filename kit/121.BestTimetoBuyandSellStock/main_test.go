@@ -14,7 +14,7 @@ type para struct {
 }
 
 type ans struct {
-	one []int
+	one int
 }
 
 type question struct {
@@ -28,10 +28,10 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one:   []int{4, 5, 6, 0, 0, 0},
+				one: []int{7, 1, 5, 3, 6, 4},
 			},
 			a: ans{
-				one: []int{1, 2, 3, 4, 5, 6},
+				one: 5,
 			},
 		},
 	}

@@ -9,8 +9,8 @@ func findSubstring(s string, words []string) []int {
 	// 自由组合 words 成一系列字符串
 	if len(words) == 0 {
 		return []int{}
-	} else if len(s) > 2000 {
-		return []int{}
+	// } else if len(s) > 2000 {
+	// 	return []int{}
 	}
 	res := []int{}
 	ss := getRadom(len(words))
