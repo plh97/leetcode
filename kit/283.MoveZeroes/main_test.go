@@ -31,38 +31,38 @@ func Test_OK(t *testing.T) {
 				one: []int{2, 1},
 			},
 		},
-		// question{
-		// 	p: para{
-		// 		one: []int{0, 1, 0, 1},
-		// 	},
-		// 	a: ans{
-		// 		one: []int{1, 1, 0, 0},
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{1, 0, 1, 0},
-		// 	},
-		// 	a: ans{
-		// 		one: []int{1, 1, 0, 0},
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{0, 1, 0, 3, 12},
-		// 	},
-		// 	a: ans{
-		// 		one: []int{1, 3, 12, 0, 0},
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{0, 0, 1},
-		// 	},
-		// 	a: ans{
-		// 		one: []int{1, 0, 0},
-		// 	},
-		// },
+		question{
+			p: para{
+				one: []int{0, 1, 0, 1},
+			},
+			a: ans{
+				one: []int{1, 1, 0, 0},
+			},
+		},
+		question{
+			p: para{
+				one: []int{1, 0, 1, 0},
+			},
+			a: ans{
+				one: []int{1, 1, 0, 0},
+			},
+		},
+		question{
+			p: para{
+				one: []int{0, 1, 0, 3, 12},
+			},
+			a: ans{
+				one: []int{1, 3, 12, 0, 0},
+			},
+		},
+		question{
+			p: para{
+				one: []int{0, 0, 1},
+			},
+			a: ans{
+				one: []int{1, 0, 0},
+			},
+		},
 	}
 
 	for _, q := range qs {
