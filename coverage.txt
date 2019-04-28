@@ -113,6 +113,8 @@ www/leetcode/kit/16.3SumClose/main.go:13.30,14.31 1 6
 www/leetcode/kit/16.3SumClose/main.go:14.31,15.90 1 4
 www/leetcode/kit/16.3SumClose/main.go:15.90,17.6 1 4
 mode: atomic
+www/leetcode/kit/169.MajorityElement/main.go:5.38,11.2 2 2
+mode: atomic
 www/leetcode/kit/17.LetterCombinationsofaPhoneNumber/main.go:14.49,15.20 1 2
 www/leetcode/kit/17.LetterCombinationsofaPhoneNumber/main.go:18.2,19.24 2 1
 www/leetcode/kit/17.LetterCombinationsofaPhoneNumber/main.go:23.2,23.12 1 1
