@@ -66,6 +66,14 @@ www/leetcode/kit/11.ContainerWithMostWater/main.go:21.24,22.11 1 8
 www/leetcode/kit/11.ContainerWithMostWater/main.go:22.11,24.3 1 2
 www/leetcode/kit/11.ContainerWithMostWater/main.go:24.8,26.3 1 6
 mode: atomic
+www/leetcode/kit/118.PascalTriangle/main.go:3.36,4.16 1 2
+www/leetcode/kit/118.PascalTriangle/main.go:7.2,10.31 2 1
+www/leetcode/kit/118.PascalTriangle/main.go:18.2,18.12 1 1
+www/leetcode/kit/118.PascalTriangle/main.go:4.16,6.3 1 1
+www/leetcode/kit/118.PascalTriangle/main.go:10.31,12.26 2 4
+www/leetcode/kit/118.PascalTriangle/main.go:15.3,16.26 2 4
+www/leetcode/kit/118.PascalTriangle/main.go:12.26,14.4 1 6
+mode: atomic
 www/leetcode/kit/12.IntegerToRoman/main.go:10.33,15.2 1 4
 mode: atomic
 www/leetcode/kit/121.BestTimetoBuyandSellStock/main.go:3.34,5.37 2 3
@@ -393,6 +401,22 @@ www/leetcode/kit/4.FindMedianSortedArrays/main.go:6.37,7.29 1 30
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:7.29,9.5 1 4
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:12.23,14.3 1 3
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:14.8,16.3 1 1
+mode: atomic
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:8.45,9.38 1 5
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:12.2,13.38 2 5
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:22.2,22.12 1 5
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:9.38,11.3 1 0
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:13.38,16.35 3 31
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:19.3,20.6 2 31
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:16.35,18.4 1 14
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:25.47,26.22 1 31
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:34.2,34.13 1 14
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:26.22,28.17 2 64
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:28.17,30.4 1 47
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:30.9,32.4 1 17
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:105.36,107.21 2 31
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:110.2,110.28 1 31
+www/leetcode/kit/438.FindAllAnagramsinaString/main.go:107.21,109.3 1 68
 mode: atomic
 www/leetcode/kit/448.FindAllNumbersDisappearedinanArray/main.go:3.47,5.34 2 1
 www/leetcode/kit/448.FindAllNumbersDisappearedinanArray/main.go:8.2,8.22 1 1
