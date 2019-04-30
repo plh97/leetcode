@@ -179,6 +179,12 @@ www/leetcode/kit/18.4Sum/main.go:30.33,31.28 1 184
 www/leetcode/kit/18.4Sum/main.go:31.28,33.5 1 106
 www/leetcode/kit/18.4Sum/main.go:35.13,37.4 1 6
 mode: atomic
+www/leetcode/kit/189.RotateArray/main.go:3.38,4.12 1 1
+www/leetcode/kit/189.RotateArray/main.go:8.2,8.13 1 1
+www/leetcode/kit/189.RotateArray/main.go:4.12,7.3 2 3
+www/leetcode/kit/189.RotateArray/main.go:11.22,12.37 1 3
+www/leetcode/kit/189.RotateArray/main.go:12.37,14.3 1 18
+mode: atomic
 www/leetcode/kit/19.RemoveNthNodeFromEndOfList/main.go:9.56,13.25 4 3
 www/leetcode/kit/19.RemoveNthNodeFromEndOfList/main.go:17.2,18.21 2 3
 www/leetcode/kit/19.RemoveNthNodeFromEndOfList/main.go:22.2,22.14 1 3
@@ -237,6 +243,26 @@ www/leetcode/kit/21.MergeTwoLists/main.go:41.2,45.31 3 13
 www/leetcode/kit/21.MergeTwoLists/main.go:49.2,49.12 1 13
 www/leetcode/kit/21.MergeTwoLists/main.go:38.18,40.3 1 2
 www/leetcode/kit/21.MergeTwoLists/main.go:45.31,48.3 2 11
+mode: atomic
+www/leetcode/kit/217.ContainsDuplicate/main.go:3.41,4.20 1 4
+www/leetcode/kit/217.ContainsDuplicate/main.go:7.2,7.22 1 3
+www/leetcode/kit/217.ContainsDuplicate/main.go:12.2,12.14 1 1
+www/leetcode/kit/217.ContainsDuplicate/main.go:4.20,6.3 1 1
+www/leetcode/kit/217.ContainsDuplicate/main.go:7.22,8.40 1 4
+www/leetcode/kit/217.ContainsDuplicate/main.go:8.40,10.4 1 2
+www/leetcode/kit/217.ContainsDuplicate/main.go:15.45,16.38 1 4
+www/leetcode/kit/217.ContainsDuplicate/main.go:21.2,21.11 1 0
+www/leetcode/kit/217.ContainsDuplicate/main.go:16.38,17.21 1 12
+www/leetcode/kit/217.ContainsDuplicate/main.go:17.21,19.4 1 4
+mode: atomic
+www/leetcode/kit/219.ContainsDuplicateII/main.go:3.54,4.33 1 5
+www/leetcode/kit/219.ContainsDuplicateII/main.go:10.2,10.14 1 1
+www/leetcode/kit/219.ContainsDuplicateII/main.go:4.33,6.30 2 17
+www/leetcode/kit/219.ContainsDuplicateII/main.go:6.30,8.4 1 4
+www/leetcode/kit/219.ContainsDuplicateII/main.go:13.39,14.22 1 17
+www/leetcode/kit/219.ContainsDuplicateII/main.go:19.2,19.11 1 8
+www/leetcode/kit/219.ContainsDuplicateII/main.go:14.22,15.21 1 69
+www/leetcode/kit/219.ContainsDuplicateII/main.go:15.21,17.4 1 9
 mode: atomic
 www/leetcode/kit/22.GenerateParentheses/main.go:3.42,7.38 3 1
 www/leetcode/kit/22.GenerateParentheses/main.go:25.2,25.12 1 1
