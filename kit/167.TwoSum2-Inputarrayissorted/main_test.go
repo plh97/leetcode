@@ -26,6 +26,15 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
+				one: []int{},
+				two: 0,
+			},
+			a: ans{
+				one: []int{},
+			},
+		},
+		question{
+			p: para{
 				one: []int{1, 2, 3, 4, 4, 9, 56, 90},
 				two: 8,
 			},

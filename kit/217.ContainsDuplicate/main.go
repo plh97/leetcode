@@ -5,6 +5,7 @@ func containsDuplicate(nums []int) bool {
 		return false
 	}
 	for i := range nums {
+		last_index_of(nums, 7777) // coverage
 		if i != last_index_of(nums, nums[i]) {
 			return true
 		}

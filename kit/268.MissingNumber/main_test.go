@@ -1,4 +1,4 @@
-package singleNumber
+package missingNumber
 
 import (
 	"testing"
@@ -25,15 +25,31 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: []int{4,1,2,1,2},
+				one: []int{1,2},
 			},
 			a: ans{
-				one: 4,
+				one: 0,
 			},
 		},
 		question{
 			p: para{
-				one: []int{1,2,1,2},
+				one: []int{0,1},
+			},
+			a: ans{
+				one: 2,
+			},
+		},
+		question{
+			p: para{
+				one: []int{1},
+			},
+			a: ans{
+				one: 0,
+			},
+		},
+		question{
+			p: para{
+				one: []int{0},
 			},
 			a: ans{
 				one: 1,
@@ -41,17 +57,25 @@ func Test_OK(t *testing.T) {
 		},
 		question{
 			p: para{
-				one: []int{2,2,1},
+				one: []int{3,1,0},
 			},
 			a: ans{
-				one: 1,
+				one: 2,
+			},
+		},
+		question{
+			p: para{
+				one: []int{9,6,4,2,3,5,7,0,1},
+			},
+			a: ans{
+				one: 8,
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, singleNumber(p.one), "输入:%v", p)
+		ast.Equal(a.one, missingNumber(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
