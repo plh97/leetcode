@@ -12,8 +12,6 @@ func matrixReshape(nums [][]int, r int, c int) [][]int {
 	if r*c != len(res) {
 		return nums
 	}
-	//index
-
 	for i := 0; i < r; i++ {
 		ress = append(ress, []int{})
 		for j := 0; j < c; j++ {
