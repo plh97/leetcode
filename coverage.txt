@@ -500,6 +500,12 @@ www/leetcode/kit/5.LongestPalindromicSubstring/main.go:26.30,27.36 1 7
 www/leetcode/kit/5.LongestPalindromicSubstring/main.go:27.36,30.35 2 18
 www/leetcode/kit/5.LongestPalindromicSubstring/main.go:30.35,32.5 1 3
 mode: atomic
+www/leetcode/kit/509.FibonacciNumber/main.go:3.21,4.12 1 9
+www/leetcode/kit/509.FibonacciNumber/main.go:7.2,7.12 1 5
+www/leetcode/kit/509.FibonacciNumber/main.go:10.2,10.28 1 3
+www/leetcode/kit/509.FibonacciNumber/main.go:4.12,6.3 1 4
+www/leetcode/kit/509.FibonacciNumber/main.go:7.12,9.3 1 2
+mode: atomic
 www/leetcode/kit/581.ShortestUnsortedContinuousSubarray/main.go:7.43,12.22 5 2
 www/leetcode/kit/581.ShortestUnsortedContinuousSubarray/main.go:18.2,18.37 1 2
 www/leetcode/kit/581.ShortestUnsortedContinuousSubarray/main.go:24.2,24.16 1 2
