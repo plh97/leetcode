@@ -37,7 +37,7 @@ func Test_OK(t *testing.T) {
 				one: []int{-5, -4, 1, 2, 3},
 			},
 			a: ans{
-				one: 6,
+				one: 60,
 			},
 		},
 	}
