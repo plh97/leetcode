@@ -11,9 +11,9 @@ func transpose(nums [][]int) [][]int {
 			res = append(res, nums[j][i])
 		}
 	}
-	if r*c != len(res) {
-		return nums
-	}
+	// if r*c != len(res) {
+	// 	return nums
+	// }
 	for i := 0; i < r; i++ {
 		ress = append(ress, []int{})
 		for j := 0; j < c; j++ {
