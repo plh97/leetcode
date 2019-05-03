@@ -1,15 +1,15 @@
-# [989. Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)
+# [1002. find common characters](https://leetcode.com/problems/find-common-characters/)
 
-## 2019/05/03
+## 2019/05/04
 
 ### 题目 💗[easy]
 
-For a non-negative integer X, the array-form of X is an array of its digits in left to right order. For example, if X = 1231, then the array form is `[1,2,3,1]`.
+Given an array A of strings made only from lowercase letters, return a list of all characters that show up in all strings within the list (including duplicates). For example, if a character occurs 3 times in all strings but not 4 times, you need to include that character three times in the final answer.
 
-给定一个整数非负数数组,
+给定一个数组 A 由字符串组成,返回他们共同拥有的字符串字母.例如:如果一个字符串占据了3次,在所有的字符串中, 你在最终答案中不需要包括这个字符.
 
 ---
 
-Given the array-form A of a non-negative integer X, return the array-form of the integer X+K.
+You may return the answer in any order.
 
-总之就是两个数组转成数组然后相加.
+你可以返回任意顺序.
