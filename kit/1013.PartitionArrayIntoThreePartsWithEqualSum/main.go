@@ -24,7 +24,7 @@ func canThreePartsEqualSum(A []int) bool {
 		if countFunc(a) == average {
 			break
 		}
-		if r == 0 {
+		if r == 1 {
 			return false
 		}
 	}
@@ -32,9 +32,9 @@ func canThreePartsEqualSum(A []int) bool {
 }
 
 func countFunc(nums []int) int {
-	if len(nums) == 0 {
-		return 0
-	}
+	// if len(nums) == 0 {
+	// 	return 0
+	// }
 	res := 0
 	for i := range nums {
 		res += nums[i]
