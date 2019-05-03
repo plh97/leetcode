@@ -60,6 +60,15 @@ func Test_OK(t *testing.T) {
 				one: []int{1, 0, 0, 0},
 			},
 		},
+		question{
+			p: para{
+				one: []int{1},
+				two: 999,
+			},
+			a: ans{
+				one: []int{1, 0, 0, 0},
+			},
+		},
 	}
 
 	for _, q := range qs {
