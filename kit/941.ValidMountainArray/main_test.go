@@ -23,70 +23,70 @@ func Test_OK(t *testing.T) {
 	ast := assert.New(t)
 
 	qs := []question{
-		// question{
-		// 	p: para{
-		// 		one: []int{3, 4},
-		// 	},
-		// 	a: ans{
-		// 		one: false,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{4, 3, 4},
-		// 	},
-		// 	a: ans{
-		// 		one: false,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{0, 2, 0},
-		// 	},
-		// 	a: ans{
-		// 		one: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{4},
-		// 	},
-		// 	a: ans{
-		// 		one: false,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{1, 3, 2},
-		// 	},
-		// 	a: ans{
-		// 		one: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{2, 0, 2},
-		// 	},
-		// 	a: ans{
-		// 		one: false,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{0, 1, 2, 4, 2, 1},
-		// 	},
-		// 	a: ans{
-		// 		one: true,
-		// 	},
-		// },
-		// question{
-		// 	p: para{
-		// 		one: []int{0, 1, 2, 1, 2},
-		// 	},
-		// 	a: ans{
-		// 		one: false,
-		// 	},
-		// },
+		question{
+			p: para{
+				one: []int{3, 4},
+			},
+			a: ans{
+				one: false,
+			},
+		},
+		question{
+			p: para{
+				one: []int{4, 3, 4},
+			},
+			a: ans{
+				one: false,
+			},
+		},
+		question{
+			p: para{
+				one: []int{0, 2, 0},
+			},
+			a: ans{
+				one: true,
+			},
+		},
+		question{
+			p: para{
+				one: []int{4},
+			},
+			a: ans{
+				one: false,
+			},
+		},
+		question{
+			p: para{
+				one: []int{1, 3, 2},
+			},
+			a: ans{
+				one: true,
+			},
+		},
+		question{
+			p: para{
+				one: []int{2, 0, 2},
+			},
+			a: ans{
+				one: false,
+			},
+		},
+		question{
+			p: para{
+				one: []int{0, 1, 2, 4, 2, 1},
+			},
+			a: ans{
+				one: true,
+			},
+		},
+		question{
+			p: para{
+				one: []int{0, 1, 2, 1, 2},
+			},
+			a: ans{
+				one: false,
+			},
+		},
 		question{
 			p: para{
 				one: []int{14, 82, 89, 84, 79, 70, 70, 68, 67, 66, 63, 60, 58, 54, 44, 43, 32, 28, 26, 25, 22, 15, 13, 12, 10, 8, 7, 5, 4, 3},
