@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f92b13-ec82-4aae-a220-aa45947a1ea1" name="Default Changelist" comment="" />
+    <list default="true" id="d5f92b13-ec82-4aae-a220-aa45947a1ea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kit/1002.FindCommonCharacters/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kit/1002.FindCommonCharacters/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kit/1002.FindCommonCharacters/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,20 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11.5/libexec/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="680" selection-start-line="680" selection-end-line="680" />
+            <state relative-caret-position="515">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -38,7 +34,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220" />
+            <state relative-caret-position="390">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kit/1002.FindCommonCharacters/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -55,6 +65,8 @@
         <option value="$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go" />
         <option value="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/README.md" />
         <option value="$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go" />
+        <option value="$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main_test.go" />
+        <option value="$PROJECT_DIR$/kit/1002.FindCommonCharacters/main.go" />
       </list>
     </option>
   </component>
@@ -83,7 +95,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="kit" type="462c0819:PsiDirectoryNode" />
-              <item name="989.AddtoArray-FormofInteger" type="462c0819:PsiDirectoryNode" />
+              <item name="1002.FindCommonCharacters" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,24 +206,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 26m 42s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 26m 55s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 27m 20s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 27m 46s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 29m 22s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 29m 48s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 32m 34s.xml">
       <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -224,6 +218,24 @@
     <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 35m 58s.xml">
       <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 37m 35s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 37m 42s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 40m 52s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 41m 14s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 42m 21s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 42m 35s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="122000" />
@@ -231,19 +243,19 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26987952" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24939759" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24939759" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,18 +275,6 @@
           <url>file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go</url>
           <line>12</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -349,11 +349,6 @@
     <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main_test.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220" />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11.5/libexec/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -363,8 +358,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="515">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/1002.FindCommonCharacters/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
