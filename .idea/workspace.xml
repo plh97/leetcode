@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f92b13-ec82-4aae-a220-aa45947a1ea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pengliheng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +21,7 @@
     <option name="myElementSize" value="335" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main_test.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11.5/libexec" />
   <component name="Git.Settings">
@@ -46,6 +32,7 @@
       <list>
         <option value="$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/main.go" />
         <option value="$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go" />
+        <option value="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/README.md" />
       </list>
     </option>
   </component>
@@ -74,7 +61,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="kit" type="462c0819:PsiDirectoryNode" />
-              <item name="532.KDiffPairsInAnArray" type="462c0819:PsiDirectoryNode" />
+              <item name="914.XOfAKindInADeckofCards" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -90,11 +77,16 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kit" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -205,7 +197,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25608012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,8 +227,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go</url>
-          <line>6</line>
-          <properties />
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -270,40 +261,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#19#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/main_test.go" />
+    <entry file="file://$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/README.md" />
+    <entry file="file://$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/main.go" />
     <entry file="file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
