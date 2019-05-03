@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f92b13-ec82-4aae-a220-aa45947a1ea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d5f92b13-ec82-4aae-a220-aa45947a1ea1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,7 +16,33 @@
     <option name="myElementSize" value="335" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.11.5/libexec/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="680" selection-start-line="680" selection-end-line="680" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-220" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11.5/libexec" />
   <component name="Git.Settings">
@@ -33,6 +54,7 @@
         <option value="$PROJECT_DIR$/kit/532.K-diffPairsInAnArray/main.go" />
         <option value="$PROJECT_DIR$/kit/532.KDiffPairsInAnArray/main.go" />
         <option value="$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/README.md" />
+        <option value="$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go" />
       </list>
     </option>
   </component>
@@ -61,7 +83,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="kit" type="462c0819:PsiDirectoryNode" />
-              <item name="914.XOfAKindInADeckofCards" type="462c0819:PsiDirectoryNode" />
+              <item name="989.AddtoArray-FormofInteger" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_OK in www/leetcode/kit/532.KDiffPairsInAnArray">
+  <component name="RunManager" selected="Go Test.Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -137,8 +159,20 @@
       <pattern value="^Test_OK$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="www/leetcode/kit/989.AddtoArray-FormofInteger" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_OK$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" />
         <item itemvalue="Go Test.Test_OK in www/leetcode/kit/532.KDiffPairsInAnArray" />
         <item itemvalue="Go Test.Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" />
         <item itemvalue="Go Build.go build main.go" />
@@ -160,35 +194,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_K-diffPairsInAnArray - 2019.05.01 at 04h 12m 19s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 26m 42s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_K-diffPairsInAnArray - 2019.05.01 at 07h 34m 09s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 26m 55s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_K-diffPairsInAnArray - 2019.05.01 at 07h 34m 11s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 27m 20s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_K-diffPairsInAnArray - 2019.05.01 at 07h 34m 17s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 27m 46s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_K-diffPairsInAnArray - 2019.05.01 at 07h 34m 21s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 29m 22s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_K-diffPairsInAnArray - 2019.05.01 at 07h 35m 01s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 29m 48s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_KDiffPairsInAnArray - 2019.05.01 at 13h 13m 37s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.KDiffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 32m 34s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_KDiffPairsInAnArray - 2019.05.01 at 13h 13m 44s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.KDiffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 35m 43s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_KDiffPairsInAnArray - 2019.05.01 at 13h 15m 18s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.KDiffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 35m 54s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_OK_in_www_leetcode_kit_532_KDiffPairsInAnArray - 2019.05.01 at 13h 16m 13s.xml">
-      <configuration name="Test_OK in www/leetcode/kit/532.KDiffPairsInAnArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_OK_in_www_leetcode_kit_989_AddtoArray-FormofInteger - 2019.05.03 at 21h 35m 58s.xml">
+      <configuration name="Test_OK in www/leetcode/kit/989.AddtoArray-FormofInteger" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -197,13 +231,13 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26987952" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -230,11 +264,32 @@
           <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$Test_OK_in_www_leetcode_kit_532_K_diffPairsInAnArray.out" NAME="Test_OK in www/leetcode/kit/532.K-diffPairsInAnArray Coverage Results" MODIFIED="1556667249751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kit/217.ContainsDuplicate/main.go">
@@ -284,11 +339,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main_test.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kit/914.XOfAKindInADeckofCards/main.go">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.5/libexec/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kit/989.AddtoArray-FormofInteger/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
