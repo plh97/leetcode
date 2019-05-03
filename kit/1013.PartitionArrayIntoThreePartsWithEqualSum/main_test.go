@@ -55,6 +55,22 @@ func Test_OK(t *testing.T) {
 				one: true,
 			},
 		},
+		question{
+			p: para{
+				one: []int{18, 12, -18, 18, -19, -1, 10, -999910},
+			},
+			a: ans{
+				one: false,
+			},
+		},
+		question{
+			p: para{
+				one: []int{-9999999, 12, -18, 18, -19, -1, 10},
+			},
+			a: ans{
+				one: false,
+			},
+		},
 	}
 
 	for _, q := range qs {
