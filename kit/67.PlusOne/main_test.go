@@ -1,4 +1,4 @@
-package addBinary
+package reverseString
 
 import (
 	"testing"
@@ -7,12 +7,11 @@ import (
 )
 
 type para struct {
-	one string
-	two string
+	one []byte
 }
 
 type ans struct {
-	one string
+	one []byte
 }
 
 type question struct {
@@ -26,27 +25,17 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: "111",
-				two: "1",
+				one: []byte{'h', 'e', 'l', 'l', 'o'},
 			},
 			a: ans{
-				one: "1000",
-			},
-		},
-		question{
-			p: para{
-				one: "1010",
-				two: "1011",
-			},
-			a: ans{
-				one: "10101",
+				one: []byte{'o', 'l', 'l', 'e', 'h'},
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, addBinary(p.one, p.two), "输入:%v", p)
+		ast.Equal(a.one, reverseString(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
