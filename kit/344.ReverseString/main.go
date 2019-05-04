@@ -1,20 +1,11 @@
-package moveZeroes
+package reverseString
 
-func moveZeroes(nums []int) []int {
-	i, j := 0, 1
-	for j < len(nums) {
-		if nums[i] == 0 && nums[j] != 0 {
-			nums[i], nums[j] = nums[j], nums[i]
-			i++
-			j++
-		} else if nums[i] != 0 && nums[j] == 0 {
-			i++
-		} else if nums[i] == 0 && nums[j] == 0 {
-			j++
-		} else if nums[i] != 0 && nums[j] != 0 {
-			j += 2
-			i += 2
-		}
+func reverseString(s []byte) []byte {
+	l, r := 0, len(s)-1
+	for l < r {
+		s[l], s[r] = s[r], s[l]
+		l++
+		r--
 	}
-	return nums
+	return s
 }

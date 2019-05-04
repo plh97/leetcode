@@ -1,4 +1,4 @@
-package reverseString
+package reverseVowels
 
 import (
 	"testing"
@@ -7,11 +7,11 @@ import (
 )
 
 type para struct {
-	one []byte
+	one string
 }
 
 type ans struct {
-	one []byte
+	one string
 }
 
 type question struct {
@@ -25,17 +25,25 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: []byte{'h', 'e', 'l', 'l', 'o'},
+				one: "hello",
 			},
 			a: ans{
-				one: []byte{'o', 'l', 'l', 'e', 'h'},
+				one: "holle",
+			},
+		},
+		question{
+			p: para{
+				one: "aA",
+			},
+			a: ans{
+				one: "Aa",
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, reverseString(p.one), "输入:%v", p)
+		ast.Equal(a.one, reverseVowels(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
