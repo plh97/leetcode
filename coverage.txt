@@ -72,20 +72,16 @@ www/leetcode/kit/1010.PairsofSongsWithTotalDurationsDivisibleby60/main.go:23.18,
 mode: atomic
 www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:3.42,5.19 2 6
 www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:8.2,10.26 3 6
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:20.2,22.19 2 3
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:31.2,31.14 1 3
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:16.2,17.19 2 6
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:23.2,23.14 1 6
 www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:5.19,7.3 1 53
 www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:10.26,12.30 2 32
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:15.3,15.20 1 29
 www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:12.30,13.9 1 3
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:15.20,17.4 1 3
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:22.19,24.30 2 10
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:27.3,27.13 1 7
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:24.30,25.9 1 3
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:27.13,29.4 1 0
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:34.32,39.22 2 42
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:42.2,42.12 1 42
-www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:39.22,41.3 1 142
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:17.19,19.30 2 33
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:19.30,20.9 1 3
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:26.32,28.22 2 65
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:31.2,31.12 1 65
+www/leetcode/kit/1013.PartitionArrayIntoThreePartsWithEqualSum/main.go:28.22,30.3 1 246
 mode: atomic
 www/leetcode/kit/11.ContainerWithMostWater/main.go:3.32,7.12 3 1
 www/leetcode/kit/11.ContainerWithMostWater/main.go:19.2,19.12 1 1
@@ -474,12 +470,35 @@ www/leetcode/kit/31.NextPermutation/main.go:12.13,16.4 3 1
 www/leetcode/kit/31.NextPermutation/main.go:20.27,22.3 1 3
 www/leetcode/kit/31.NextPermutation/main.go:24.12,28.3 3 3
 mode: atomic
+www/leetcode/kit/344.ReverseString/main.go:3.37,5.12 2 1
+www/leetcode/kit/344.ReverseString/main.go:10.2,10.10 1 1
+www/leetcode/kit/344.ReverseString/main.go:5.12,9.3 3 2
+mode: atomic
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:3.37,6.12 3 3
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:20.2,20.22 1 3
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:6.12,7.47 1 9
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:7.47,11.4 3 4
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:11.9,11.32 1 5
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:11.32,13.4 1 1
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:13.9,13.32 1 4
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:13.32,15.4 1 2
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:15.9,18.4 2 2
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:23.28,33.12 1 23
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:36.2,36.14 1 11
+www/leetcode/kit/345.ReverseVowelsOfAString/main.go:33.12,35.3 1 12
+mode: atomic
 www/leetcode/kit/35.SearchInsertPosition/main.go:3.47,4.22 1 4
 www/leetcode/kit/35.SearchInsertPosition/main.go:7.2,7.33 1 3
 www/leetcode/kit/35.SearchInsertPosition/main.go:12.2,12.18 1 1
 www/leetcode/kit/35.SearchInsertPosition/main.go:4.22,6.3 1 1
 www/leetcode/kit/35.SearchInsertPosition/main.go:7.33,8.24 1 9
 www/leetcode/kit/35.SearchInsertPosition/main.go:8.24,10.4 1 2
+mode: atomic
+www/leetcode/kit/383.RansomNote/main.go:8.60,9.28 1 1
+www/leetcode/kit/383.RansomNote/main.go:21.2,21.13 1 0
+www/leetcode/kit/383.RansomNote/main.go:9.28,12.24 3 1
+www/leetcode/kit/383.RansomNote/main.go:12.24,15.4 1 0
+www/leetcode/kit/383.RansomNote/main.go:15.9,18.4 1 1
 mode: atomic
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:3.63,5.34 2 4
 www/leetcode/kit/4.FindMedianSortedArrays/main.go:12.2,12.23 1 4
@@ -643,18 +662,9 @@ www/leetcode/kit/665.Non-decreasingArray/main.go:25.22,26.14 1 51
 www/leetcode/kit/665.Non-decreasingArray/main.go:29.3,29.35 1 38
 www/leetcode/kit/665.Non-decreasingArray/main.go:26.14,27.12 1 13
 mode: atomic
-www/leetcode/kit/67.PlusOne/main.go:5.34,7.40 2 4
-www/leetcode/kit/67.PlusOne/main.go:33.2,33.15 1 2
-www/leetcode/kit/67.PlusOne/main.go:7.40,10.15 1 8
-www/leetcode/kit/67.PlusOne/main.go:19.3,19.25 1 8
-www/leetcode/kit/67.PlusOne/main.go:28.3,28.25 1 8
-www/leetcode/kit/67.PlusOne/main.go:10.15,11.22 1 2
-www/leetcode/kit/67.PlusOne/main.go:11.22,13.5 1 1
-www/leetcode/kit/67.PlusOne/main.go:13.10,16.5 2 1
-www/leetcode/kit/67.PlusOne/main.go:19.25,20.34 1 4
-www/leetcode/kit/67.PlusOne/main.go:20.34,23.5 2 3
-www/leetcode/kit/67.PlusOne/main.go:23.10,25.5 1 1
-www/leetcode/kit/67.PlusOne/main.go:28.25,31.4 2 2
+www/leetcode/kit/67.PlusOne/main.go:3.37,5.12 2 1
+www/leetcode/kit/67.PlusOne/main.go:10.2,10.10 1 1
+www/leetcode/kit/67.PlusOne/main.go:5.12,9.3 3 2
 mode: atomic
 www/leetcode/kit/674.LongestContinuousIncreasingSubsequence/main.go:3.39,4.20 1 4
 www/leetcode/kit/674.LongestContinuousIncreasingSubsequence/main.go:7.2,8.22 2 3
