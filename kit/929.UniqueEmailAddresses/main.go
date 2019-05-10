@@ -26,7 +26,7 @@ func numUniqueEmails(emails []string) int {
 		}
 		emails[i] = email
 	}
-
+	lastIndexOf([]string{"r3"}, "123")
 	// 去重
 	res := 0
 	for i := range emails {

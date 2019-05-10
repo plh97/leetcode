@@ -51,6 +51,15 @@ func Test_OK(t *testing.T) {
 				one: true,
 			},
 		},
+		question{
+			p: para{
+				one: "vttkgnn",
+				two: "vttkgnn",
+			},
+			a: ans{
+				one: true,
+			},
+		},
 	}
 
 	for _, q := range qs {

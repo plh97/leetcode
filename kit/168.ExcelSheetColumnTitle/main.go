@@ -1,7 +1,5 @@
 package convertToTitle
 
-import "fmt"
-
 func convertToTitle(n int) string {
 	res := ""
 	for n > 0 {
