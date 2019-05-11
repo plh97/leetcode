@@ -33,10 +33,34 @@ func Test_OK(t *testing.T) {
 		},
 		question{
 			p: para{
+				one: 2,
+			},
+			a: ans{
+				one: true,
+			},
+		},
+		question{
+			p: para{
+				one: 0,
+			},
+			a: ans{
+				one: false,
+			},
+		},
+		question{
+			p: para{
 				one: 128,
 			},
 			a: ans{
 				one: true,
+			},
+		},
+		question{
+			p: para{
+				one: 6,
+			},
+			a: ans{
+				one: false,
 			},
 		},
 	}
