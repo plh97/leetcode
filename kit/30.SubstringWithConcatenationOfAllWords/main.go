@@ -13,7 +13,7 @@ func findSubstring(s string, words []string) []int {
 	// 	return []int{}
 	}
 	res := []int{}
-	ss := getRadom(len(words))
+	ss := getRandom(len(words))
 	wordArray := []string{}
 	for i := range ss {
 		tempString := ""
@@ -47,7 +47,7 @@ func isRepeat(num int, arr []int) bool {
 
 var dp map[int][][]int = make(map[int][][]int)
 
-func getRadom(n int) [][]int {
+func getRandom(n int) [][]int {
 	// if len(dp) >= s {
 	// 	fmt.Println("with dp", dp[s-1])
 	// 	return dp[s-1]
@@ -63,7 +63,7 @@ func getRadom(n int) [][]int {
 	}
 	res := [][]int{}
 	for i := 1; i <= n; i++ {
-		_lowerRes := getRadom(n - 1)
+		_lowerRes := getRandom(n - 1)
 		lowerRes := [][]int{}
 		for i := range _lowerRes {
 			var temp = make([]int, len(_lowerRes[i]))
@@ -88,12 +88,12 @@ func getRadom(n int) [][]int {
 // n->1 [[1,2],[2,1]]
 // n=> 动态规划+缓存
 // 复杂度n*n, 自下而上动态规划, 过于复杂,无法利用到动态规划的优势
-// func getRadom(s int, ss [][]int) [][]int {
+// func getRandom(s int, ss [][]int) [][]int {
 // 	// res X s
 // 	if s == 0 {
 // 		return ss
 // 	} else if len(ss) == 0 {
-// 		return getRadom(s-1, [][]int{[]int{s}})
+// 		return getRandom(s-1, [][]int{[]int{s}})
 // 	}
 
 // 	// if res, ok := dp[s]; ok {
@@ -123,5 +123,5 @@ func getRadom(n int) [][]int {
 // 		ss[i] = res[i]
 // 	}
 // 	// dp[s] = res
-// 	return getRadom(s-1, res)
+// 	return getRandom(s-1, res)
 // }

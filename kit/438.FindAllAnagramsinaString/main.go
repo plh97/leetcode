@@ -37,7 +37,7 @@ func randomSameString(str1, str2 string) bool {
 // 这种解法超时了
 // func findAnagrams(s string, p string) []int {
 // 	res := []int{}
-// 	a := getRadom(len(p))
+// 	a := getRandom(len(p))
 // 	// 遍历随机组合
 // 	for i := range a {
 // 		var str_buffer bytes.Buffer
@@ -63,7 +63,7 @@ func randomSameString(str1, str2 string) bool {
 
 // var dp map[int][][]int = make(map[int][][]int)
 
-// func getRadom(n int) [][]int {
+// func getRandom(n int) [][]int {
 // 	if res, ok := dp[n]; ok {
 // 		fmt.Println("get", res)
 // 		return res
@@ -81,7 +81,7 @@ func randomSameString(str1, str2 string) bool {
 // 	}
 // 	res := [][]int{}
 // 	for i := 1; i <= n; i++ {
-// 		_lowerRes := getRadom(n - 1)
+// 		_lowerRes := getRandom(n - 1)
 // 		lowerRes := [][]int{}
 // 		for i := range _lowerRes {
 // 			var temp = make([]int, len(_lowerRes[i]))

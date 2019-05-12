@@ -1,4 +1,4 @@
-package addBinary
+package binaryGap
 
 import (
 	"testing"
@@ -7,12 +7,11 @@ import (
 )
 
 type para struct {
-	one string
-	two string
+	one int
 }
 
 type ans struct {
-	one string
+	one int
 }
 
 type question struct {
@@ -26,18 +25,33 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: "11",
-				two: "1",
+				one: 22,
 			},
 			a: ans{
-				one: "100",
+				one: 2,
+			},
+		},
+		question{
+			p: para{
+				one: 8,
+			},
+			a: ans{
+				one: 0,
+			},
+		},
+		question{
+			p: para{
+				one: 5,
+			},
+			a: ans{
+				one: 2,
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, addBinary(p.one, p.two), "输入:%v", p)
+		ast.Equal(a.one, binaryGap(p.one), "输入:%v", p)
 	}
 
 	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
