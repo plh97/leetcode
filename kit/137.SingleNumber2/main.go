@@ -1,9 +1,10 @@
 package singleNumber
 
 func singleNumber(nums []int) int {
-	res := 0
+	a, b := 0, 0
 	for i := range nums {
-		res ^= nums[i]
+		a ^= nums[i] &^ b
+		b ^= nums[i] &^ a
 	}
-	return res
+	return a
 }
