@@ -31,14 +31,14 @@ func Test_OK(t *testing.T) {
 				one: 5,
 			},
 		},
-		// question{
-		// 	p: para{
-		// 		one: []int{1, 2, 1},
-		// 	},
-		// 	a: ans{
-		// 		one: 0,
-		// 	},
-		// },
+		question{
+			p: para{
+				one: []int{1, 2, 1},
+			},
+			a: ans{
+				one: 0,
+			},
+		},
 	}
 
 	for _, q := range qs {
