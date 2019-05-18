@@ -1,7 +1,7 @@
 package isSameTree
 
 import (
-	"www/leetcode/Helper"
+	"github.com/pengliheng/leetcode/Helper"
 )
 
 type TreeNode = Helper.TreeNode
