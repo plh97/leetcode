@@ -1,15 +1,21 @@
 package bitwiseComplement
 
 func bitwiseComplement(N int) int {
-	if N == 0 {
-		return 1
-	}
-	res := 0
-	for i := 1; N > 0; i *= 2 {
-		if N%2 == 0 {
-			res += i
-		}
-		N /= 2
-	}
-	return res
+	x := N
+	x |= 1
+	x |= x >> 1
+	x |= x >> 2
+	x |= x >> 4
+	x |= x >> 8
+
+	return x ^ N
 }
+
+// func bitwiseComplement(N int) int {
+// 	x := N
+// 	x |= 1
+// 	for k := x; k > 0; k /= 2 {
+// 		x |= k
+// 	}
+// 	return x ^ N
+// }
