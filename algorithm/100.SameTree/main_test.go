@@ -7,12 +7,12 @@ import (
 )
 
 type para struct {
-	one   []int
-	three []int
+	one *TreeNode
+	two *TreeNode
 }
 
 type ans struct {
-	one []int
+	one bool
 }
 
 type question struct {
@@ -26,11 +26,46 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one:   []int{1},
-				two:   1,
+				one: &TreeNode{
+					Val: 1,
+					Left: &TreeNode{
+						Val: 0,
+					},
+					Right: &TreeNode{
+						Val: 2,
+					},
+				},
+				two: &TreeNode{
+					Val: 1,
+					Left: &TreeNode{
+						Val: 0,
+					},
+					Right: &TreeNode{
+						Val: 2,
+					},
+				},
 			},
 			a: ans{
-				one: []int{1},
+				one: true,
+			},
+		},
+		question{
+			p: para{
+				one: &TreeNode{
+					Val: 1,
+					Left: &TreeNode{
+						Val: 2,
+					},
+				},
+				two: &TreeNode{
+					Val: 1,
+					Right: &TreeNode{
+						Val: 2,
+					},
+				},
+			},
+			a: ans{
+				one: false,
 			},
 		},
 	}
