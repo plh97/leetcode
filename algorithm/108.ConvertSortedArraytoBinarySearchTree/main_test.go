@@ -26,8 +26,8 @@ var tcs = []struct {
 	ans *TreeNode
 }{
 	{
-		[]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7},
-		Helper.Ints2TreeNode([]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7}),
+		[]int{-10, -3, 0, 5, 9},
+		Helper.IntsPreOrder2TreeNode([]int{0, -3, 9, -10, 5}),
 	},
 }
 

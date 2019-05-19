@@ -86,3 +86,20 @@ func Ints2TreeNode(ints []int) *TreeNode {
 
 	return root
 }
+
+// 先序遍历
+// [1,2,3,4,5] => 
+//      3
+//    2   5
+//   1   4
+func IntsPreOrder2TreeNode(nums []int) *TreeNode {
+	if len(nums) == 0 {
+		return nil
+	}
+	mid := len(nums) / 2
+	return &TreeNode{
+		Val:   nums[mid],
+		Left:  IntsPreOrder2TreeNode(nums[:mid]),
+		Right: IntsPreOrder2TreeNode(nums[mid+1:]),
+	}
+}
