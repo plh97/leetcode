@@ -12,7 +12,7 @@ type para struct {
 }
 
 type ans struct {
-	one bool
+	one int
 }
 
 type question struct {
@@ -43,7 +43,7 @@ func Test_OK(t *testing.T) {
 				},
 			},
 			a: ans{
-				one: true,
+				one: 3,
 			},
 		},
 	}
