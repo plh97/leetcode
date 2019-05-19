@@ -16,8 +16,12 @@ func ArrayIntoTree(a []int) *TreeNode {
 	if len(a) == 0 {
 		return nil
 	} else if (len(a)) == 1 {
-		return &TreeNode{
-			Val: a[0],
+		if a[0] == 0 {
+			return nil
+		} else {
+			return &TreeNode{
+				Val: a[0],
+			}
 		}
 	} else if (len(a)) == 2 {
 		return &TreeNode{
