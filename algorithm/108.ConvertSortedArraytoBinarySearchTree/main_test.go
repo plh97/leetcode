@@ -27,7 +27,7 @@ var tcs = []struct {
 }{
 	{
 		[]int{-10, -3, 0, 5, 9},
-		Helper.IntsPreOrder2TreeNode([]int{0, -3, 9, -10, 5}),
+		Helper.IntsPreOrder2TreeNode([]int{-10, -3, 0, 5, 9}),
 	},
 }
 
