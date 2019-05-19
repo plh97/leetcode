@@ -3,6 +3,8 @@ package maxDepth
 import (
 	"testing"
 
+	"github.com/pengliheng/leetcode/Helper"
+
 	"github.com/stretchr/testify/assert"
 )
 
@@ -26,24 +28,18 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: &TreeNode{
-					Val: 3,
-					Left: &TreeNode{
-						Val: 9,
-					},
-					Right: &TreeNode{
-						Val: 20,
-						Left: &TreeNode{
-							Val: 15,
-						},
-						Right: &TreeNode{
-							Val: 7,
-						},
-					},
-				},
+				one: Helper.Ints2TreeNode([]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7}),
 			},
 			a: ans{
 				one: 3,
+			},
+		},
+		question{
+			p: para{
+				one: Helper.Ints2TreeNode([]int{1,2}),
+			},
+			a: ans{
+				one: 2,
 			},
 		},
 	}

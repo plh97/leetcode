@@ -3,6 +3,8 @@ package isSymmetric
 import (
 	"testing"
 
+	"github.com/pengliheng/leetcode/Helper"
+
 	"github.com/stretchr/testify/assert"
 )
 
@@ -26,27 +28,7 @@ func Test_OK(t *testing.T) {
 	qs := []question{
 		question{
 			p: para{
-				one: &TreeNode{
-					Val: 1,
-					Left: &TreeNode{
-						Val: 2,
-						Left: &TreeNode{
-							Val: 3,
-						},
-						Right: &TreeNode{
-							Val: 4,
-						},
-					},
-					Right: &TreeNode{
-						Val: 2,
-						Left: &TreeNode{
-							Val: 4,
-						},
-						Right: &TreeNode{
-							Val: 3,
-						},
-					},
-				},
+				one: Helper.Ints2TreeNode([]int{1, 2, 2, 3, 4, 4, 3}),
 			},
 			a: ans{
 				one: true,
@@ -54,15 +36,7 @@ func Test_OK(t *testing.T) {
 		},
 		question{
 			p: para{
-				one: &TreeNode{
-					Val: 1,
-					Left: &TreeNode{
-						Val: 2,
-					},
-					Right: &TreeNode{
-						Val: 3,
-					},
-				},
+				one: Helper.Ints2TreeNode([]int{1, 2, 3}),
 			},
 			a: ans{
 				one: false,
@@ -70,7 +44,7 @@ func Test_OK(t *testing.T) {
 		},
 		question{
 			p: para{
-				one: &TreeNode{},
+				one: Helper.Ints2TreeNode([]int{}),
 			},
 			a: ans{
 				one: true,
