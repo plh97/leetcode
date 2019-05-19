@@ -2,17 +2,17 @@ package levelOrderBottom
 
 import (
 	"testing"
+	"www/leetcode/Helper"
 
 	"github.com/stretchr/testify/assert"
 )
 
 type para struct {
-	one *TreeNode
-	two *TreeNode
+	one int
 }
 
 type ans struct {
-	one [][]int
+	one int
 }
 
 type question struct {
@@ -20,43 +20,57 @@ type question struct {
 	a ans
 }
 
-func Test_OK(t *testing.T) {
-	ast := assert.New(t)
-
-	qs := []question{
-		question{
-			p: para{
-				one: &TreeNode{
-					Val: 3,
-					Left: &TreeNode{
-						Val: 9,
-					},
-					Right: &TreeNode{
-						Val: 20,
-						Left: &TreeNode{
-							Val: 15,
-						},
-						Right: &TreeNode{
-							Val: 7,
-						},
-					},
-				},
+var tcs = []struct {
+	N   *TreeNode
+	ans [][]int
+}{
+	{
+		&TreeNode{
+			Val: 3,
+			Left: &TreeNode{
+				Val: 9,
 			},
-			a: ans{
-				one: [][]int{
-					[]int{15, 7},
-					[]int{9, 20},
-					[]int{3},
+			Right: &TreeNode{
+				Val: 20,
+				Left: &TreeNode{
+					Val: 15,
+				},
+				Right: &TreeNode{
+					Val: 7,
 				},
 			},
 		},
+		[][]int{
+			[]int{15, 7},
+			[]int{9, 20},
+			[]int{3},
+		},
+	},
+	{
+		nil,
+		[][]int{},
+	},
+	{
+		Helper.ArrayIntoTree([]int{1, 2, nil, 3, nil, 4, nil, 5}),
+		[][]int{
+			[]int{15, 7},
+			[]int{9, 20},
+			[]int{3},
+		},
+	},
+}
+
+func Test_bitwiseComplement(t *testing.T) {
+	ast := assert.New(t)
+	for _, tc := range tcs {
+		ast.Equal(tc.ans, levelOrderBottom(tc.N), "输入:%v", tc)
 	}
+}
 
-	for _, q := range qs {
-		a, p := q.a, q.p
-		ast.Equal(a.one, levelOrderBottom(p.one), "input: %v", p)
+func Benchmark_bitwiseComplement(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		for _, tc := range tcs {
+			levelOrderBottom(tc.N)
+		}
 	}
-
-	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
-
 }
