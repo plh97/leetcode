@@ -3,7 +3,7 @@ package levelOrderBottom
 import (
 	"testing"
 
-	"www/leetcode/Helper"
+	"github.com/pengliheng/leetcode/Helper"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -26,21 +26,7 @@ var tcs = []struct {
 	ans [][]int
 }{
 	{
-		&TreeNode{
-			Val: 3,
-			Left: &TreeNode{
-				Val: 9,
-			},
-			Right: &TreeNode{
-				Val: 20,
-				Left: &TreeNode{
-					Val: 15,
-				},
-				Right: &TreeNode{
-					Val: 7,
-				},
-			},
-		},
+		Helper.Ints2TreeNode([]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7}),
 		[][]int{
 			[]int{15, 7},
 			[]int{9, 20},
@@ -51,16 +37,14 @@ var tcs = []struct {
 		nil,
 		[][]int{},
 	},
-	// 		    1
-	// 		2,     nil
-	// 	3, nil  4, nil
-	// 5
 	{
-		Helper.ArrayIntoTree([]int{1, 2, 0, 3, 0, 4, 0, 5}),
+		Helper.Ints2TreeNode([]int{1, 2, -1 << 63, 3, -1 << 63, 4, -1 << 63, 5}),
 		[][]int{
-			[]int{15, 7},
-			[]int{9, 20},
+			[]int{5},
+			[]int{4},
 			[]int{3},
+			[]int{2},
+			[]int{1},
 		},
 	},
 }
