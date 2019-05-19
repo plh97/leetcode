@@ -25,10 +25,10 @@ var tcs = []struct {
 	N   *TreeNode
 	ans bool
 }{
-	// {
-	// 	Helper.Ints2TreeNode([]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7}),
-	// 	true,
-	// },
+	{
+		Helper.Ints2TreeNode([]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7}),
+		true,
+	},
 	{
 		Helper.Ints2TreeNode([]int{1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, -1 << 63, -1 << 63, 5, 5}),
 		true,
@@ -36,6 +36,10 @@ var tcs = []struct {
 	{
 		Helper.Ints2TreeNode([]int{1, 2, 2, 3, 3, -1 << 63, -1 << 63, 4, 4}),
 		false,
+	},
+	{
+		Helper.Ints2TreeNode([]int{}),
+		true,
 	},
 }
 
