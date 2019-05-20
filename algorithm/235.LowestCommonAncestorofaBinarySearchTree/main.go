@@ -1,48 +1,46 @@
-package lowestCommonAncestor
+package binaryTreePaths
 
 import (
+	"strconv"
+
 	"github.com/pengliheng/leetcode/Helper"
 )
 
 type TreeNode = Helper.TreeNode
 
 /**
- * Definition for TreeNode.
+ * Definition for a binary tree node.
  * type TreeNode struct {
-	*     Val int
- *     Left *ListNode
- *     Right *ListNode
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
  * }
-*/
-// O(1)
-// func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
-// 	if p.Val > q.Val {
-// 		q, p = p, q
-// 	}
-// 	for {
-// 		if root.Val < p.Val {
-// 			root = root.Right
-// 		}else if root.Val > q.Val {
-// 			root = root.Left
-// 		}else {
-// 			return root
-// 		}
-// 	}
-// }
+ */
 
-// Recursive
-func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
-	if p.Val > q.Val {
-		q, p = p, q
-	}
+func binaryTreePaths(root *TreeNode) []string {
+	res := []string{}
+	return helper(root, "", res)
+}
+
+func helper(root *TreeNode, str string, res []string) []string {
 	if root == nil {
-		return nil
+		return res
 	}
-	if root.Val < p.Val {
-		return lowestCommonAncestor(root.Right, p, q)
-	} else if root.Val > q.Val {
-		return lowestCommonAncestor(root.Left, p, q)
+	val := strconv.Itoa(root.Val)
+	if str == "" {
+		str = val
 	} else {
-		return root
+		str = str + "->" + val
 	}
+	if root.Left != nil {
+		res = helper(root.Left, str, res)
+	}
+	if root.Right != nil {
+		res = helper(root.Right, str, res)
+	}
+	if root.Right == nil && root.Left == nil {
+		// leaf
+		res = append(res, str)
+	}
+	return res
 }

@@ -1,4 +1,4 @@
-package lowestCommonAncestor
+package binaryTreePaths
 
 import (
 	"testing"
@@ -16,28 +16,15 @@ type ans struct {
 	one int
 }
 
-type question struct {
-	one   *TreeNode
-	two   *TreeNode
-	three *TreeNode
-}
-
 var tcs = []struct {
-	N   question
-	ans *TreeNode
+	N   *TreeNode
+	ans []string
 }{
 	{
-		question{
-			Helper.IntsPreOrder2TreeNode([]int{-10, -3, 0, 5, 9}),
-			&TreeNode{
-				Val: 2,
-			},
-			&TreeNode{
-				Val: 8,
-			},
-		},
-		&TreeNode{
-			Val: 5,
+		Helper.Ints2TreeNode([]int{1, 2, 3, -1 << 63, 5}),
+		[]string{
+			"1->2->5",
+			"1->3",
 		},
 	},
 }
@@ -45,14 +32,14 @@ var tcs = []struct {
 func Test_bitwiseComplement(t *testing.T) {
 	ast := assert.New(t)
 	for _, tc := range tcs {
-		ast.Equal(tc.ans, lowestCommonAncestor(tc.N.one, tc.N.two, tc.N.three), "输入:%v", tc)
+		ast.Equal(tc.ans, binaryTreePaths(tc.N), "输入:%v", tc)
 	}
 }
 
 func Benchmark_bitwiseComplement(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, tc := range tcs {
-			lowestCommonAncestor(tc.N.one, tc.N.two, tc.N.three)
+			binaryTreePaths(tc.N)
 		}
 	}
 }
