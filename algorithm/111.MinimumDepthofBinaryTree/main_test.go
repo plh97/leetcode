@@ -30,7 +30,15 @@ var tcs = []struct {
 		2,
 	},
 	{
+		Helper.Ints2TreeNode([]int{3, 9, 20, -1 << 63, -1 << 63, 15, 7}),
+		2,
+	},
+	{
 		Helper.Ints2TreeNode([]int{1, 2}),
+		2,
+	},
+	{
+		Helper.Ints2TreeNode([]int{1, -1 << 63, 2}),
 		2,
 	},
 }
