@@ -1,7 +1,7 @@
-## [15. 3Sum](https://leetcode.com/problems/3sum/)
+# [15. 3Sum](https://leetcode.com/problems/3sum/)
 
-###### 2019/02/25
+## 2019/02/25
 
+### 题目 💗
 
-### 题目💗
-medium不讲
+medium 不讲
