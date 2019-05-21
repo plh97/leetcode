@@ -1,12 +1,14 @@
 package twoSum
 
+// 解题思路,运用hash表格特性,分别用key/value记录a,b的值
+// m  => [a的index, b的值]
 func twoSum(nums []int, target int) []int {
-	for i := 0; i < len(nums); i++ {
-		for j := i + 1; j < len(nums); j++ {
-			if nums[i]+nums[j] == target {
-				return []int{i, j}
-			}
+	m := make(map[int]int, len(nums))
+	for i, num := range nums {
+		if idx, ok := m[num]; ok {
+			return []int{idx, i}
 		}
+		m[target-num] = i
 	}
 	return nil
 }
