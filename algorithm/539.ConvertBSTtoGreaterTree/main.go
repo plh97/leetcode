@@ -6,27 +6,26 @@ import (
 
 type TreeNode = Helper.TreeNode
 
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
+var res int = 0
+
 func diameterOfBinaryTree(root *TreeNode) int {
-	if root == nil || (root.Left == nil && root.Right == nil) {
+	res = 0
+	helper(root)
+	return res
+}
+
+func helper(root *TreeNode) int {
+	if root == nil {
 		return 0
 	}
-	res := 0
-	res = 1 + max(diameterOfBinaryTree(root.Left), diameterOfBinaryTree(root.Right))
-	return res
+	l, r := helper(root.Left), helper(root.Right)
+	res = max(res, l+r)
+	return 1 + max(l, r)
 }
 
 func max(a, b int) int {
 	if a > b {
 		return a
-	} else {
-		return b
 	}
+	return b
 }
