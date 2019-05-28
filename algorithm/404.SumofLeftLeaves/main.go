@@ -17,7 +17,7 @@ type TreeNode = Helper.TreeNode
 
 func sumOfLeftLeaves(root *TreeNode) int {
 	// 如果左边是根节点 返回左边
-	if root==nil || isLeaf(root) {
+	if root == nil || isLeaf(root) {
 		return 0
 	}
 	if root.Left == nil {
