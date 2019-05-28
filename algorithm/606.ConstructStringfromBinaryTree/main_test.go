@@ -20,6 +20,10 @@ var tcs = []struct {
 		Helper.Ints2TreeNode([]int{1, 2, 3, -1 << 63, 4}),
 		"1(2()(4))(3)",
 	},
+	{
+		Helper.Ints2TreeNode([]int{}),
+		"",
+	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
