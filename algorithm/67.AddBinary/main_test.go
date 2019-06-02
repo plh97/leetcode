@@ -35,11 +35,11 @@ func Test_OK(t *testing.T) {
 		},
 		question{
 			p: para{
-				one: "1",
-				two: "11",
+				one: "1010",
+				two: "1011",
 			},
 			a: ans{
-				one: "100",
+				one: "10101",
 			},
 		},
 	}
