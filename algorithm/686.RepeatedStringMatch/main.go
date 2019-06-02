@@ -18,8 +18,5 @@ func repeatedStringMatch(A string, B string) int {
 			res += A
 		}
 	}
-	if len(res) == 0 {
-		return -1
-	}
-	return len(res) / len(A)
+	return -1
 }
