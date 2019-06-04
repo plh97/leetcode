@@ -1,31 +1,21 @@
-package countPrimeSetBits
+package lastStoneWeight
 
-func countPrimeSetBits(L int, R int) int {
-	res := 0
-	for i := L; i <= R; i++ {
-		cp := i
-		temp := 0
-		for cp > 0 {
-			if cp%2 == 1 {
-				temp++
-			}
-			cp /= 2
-		}
-		if isPrime(temp) {
-			res++
-		}
-	}
-	return res
-}
+import "sort"
 
-func isPrime(n int) bool {
-	if n < 2 {
-		return false
-	}
-	for i := 2; i < n/2+1; i++ {
-		if n%i == 0 {
-			return false
+func lastStoneWeight(stones []int) int {
+	sort.Ints(stones)
+	for len(stones) > 1 {
+		len := len(stones)
+		dx := stones[len-1] - stones[len-2]
+		if dx == 0 {
+			stones = stones[:len-2]
+		} else {
+			stones = append(stones[:len-2], dx)
 		}
+		sort.Ints(stones)
 	}
-	return true
+	if len(stones) == 0 {
+		return 0
+	}
+	return stones[0]
 }

@@ -1,4 +1,4 @@
-package lastStoneWeight
+package twoCitySchedCost
 
 import (
 	"testing"
@@ -7,18 +7,23 @@ import (
 )
 
 var tcs = []struct {
-	N1  []int
+	N1  [][]int
 	ans int
 }{
 	{
-		[]int{2, 7, 4, 1, 8, 1},
-		1,
+		[][]int{
+			[]int{10, 20},
+			[]int{30, 200},
+			[]int{400, 50},
+			[]int{30, 20},
+		},
+		110,
 	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
 	ast := assert.New(t)
 	for _, tc := range tcs {
-		ast.Equal(tc.ans, lastStoneWeight(tc.N1), "输入:%v", tc)
+		ast.Equal(tc.ans, twoCitySchedCost(tc.N1), "输入:%v", tc)
 	}
 }
