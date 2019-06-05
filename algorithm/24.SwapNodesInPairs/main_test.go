@@ -2,6 +2,7 @@ package swapPairs
 
 import (
 	"testing"
+	"www/leetcode/Helper"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -26,28 +27,28 @@ func Test_OK(t *testing.T) {
 
 		question{
 			p: para{
-				one: MakeListNode([]int{1, 2, 3, 4}),
+				one: Helper.Ints2LinkList([]int{1, 2, 3, 4}),
 			},
 			a: ans{
-				one: MakeListNode([]int{2, 1, 4, 3}),
+				one: Helper.Ints2LinkList([]int{2, 1, 4, 3}),
 			},
 		},
 
 		question{
 			p: para{
-				one: MakeListNode([]int{1}),
+				one: Helper.Ints2LinkList([]int{1}),
 			},
 			a: ans{
-				one: MakeListNode([]int{1}),
+				one: Helper.Ints2LinkList([]int{1}),
 			},
 		},
 
 		question{
 			p: para{
-				one: MakeListNode([]int{}),
+				one: Helper.Ints2LinkList([]int{}),
 			},
 			a: ans{
-				one: MakeListNode([]int{}),
+				one: Helper.Ints2LinkList([]int{}),
 			},
 		},
 	}
@@ -56,7 +57,4 @@ func Test_OK(t *testing.T) {
 		a, p := q.a, q.p
 		ast.Equal(a.one, swapPairs(p.one), "输入:%v", p)
 	}
-
-	// ast.Panics(func() { longestPalindrome([]int{}, []int{}) }, "对空切片求中位数，却没有panic")
-
 }

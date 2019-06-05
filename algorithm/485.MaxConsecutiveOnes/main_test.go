@@ -1,4 +1,4 @@
-package lastStoneWeight
+package findMaxConsecutiveOnes
 
 import (
 	"testing"
@@ -11,22 +11,26 @@ var tcs = []struct {
 	ans int
 }{
 	{
-		[]int{2, 7, 4, 1, 8, 1},
+		[]int{1, 1, 0, 1, 1, 1},
+		3,
+	},
+	{
+		[]int{1},
 		1,
 	},
 	{
-		[]int{7, 7},
+		[]int{0, 0},
 		0,
 	},
 	{
-		[]int{0},
-		0,
+		[]int{1, 0},
+		1,
 	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
 	ast := assert.New(t)
 	for _, tc := range tcs {
-		ast.Equal(tc.ans, lastStoneWeight(tc.N1), "输入:%v", tc)
+		ast.Equal(tc.ans, findMaxConsecutiveOnes(tc.N1), "输入:%v", tc)
 	}
 }

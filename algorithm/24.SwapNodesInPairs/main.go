@@ -1,10 +1,13 @@
 package swapPairs
 
+import (
+	"www/leetcode/Helper"
+)
+
 // Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+
+type ListNode = Helper.ListNode
+
 
 // MakeListNode 将连续结构的数组转化成 -> 单链结构数据的 -> 取址
 func MakeListNode(is []int) *ListNode {
