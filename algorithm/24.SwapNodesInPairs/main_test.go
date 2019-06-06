@@ -2,7 +2,7 @@ package swapPairs
 
 import (
 	"testing"
-	"www/leetcode/Helper"
+	"github.com/pengliheng/leetcode/Helper"
 
 	"github.com/stretchr/testify/assert"
 )

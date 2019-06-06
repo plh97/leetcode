@@ -1,7 +1,7 @@
 package swapPairs
 
 import (
-	"www/leetcode/Helper"
+	"github.com/pengliheng/leetcode/Helper"
 )
 
 // Definition for singly-linked list.

@@ -1,7 +1,7 @@
 package reverseList
 
 import (
-	"www/leetcode/Helper"
+	"github.com/pengliheng/leetcode/Helper"
 )
 
 /**

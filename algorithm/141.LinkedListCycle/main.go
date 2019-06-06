@@ -1,7 +1,7 @@
 package hasCycle
 
 import (
-	"www/leetcode/Helper"
+	"github.com/pengliheng/leetcode/Helper"
 )
 
 /**
