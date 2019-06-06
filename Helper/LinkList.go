@@ -31,3 +31,25 @@ func Ints2LinkList(ints []int) *ListNode {
 	}
 	return root
 }
+
+
+// Ints2ListWithCycle returns a list whose tail point to pos-indexed node
+// head's index is 0
+// if pos = -1, no cycle
+func Ints2ListWithCycle(nums []int, pos int) *ListNode {
+	head := Ints2LinkList(nums)
+	if pos == -1 {
+		return head
+	}
+	c := head
+	for pos > 0 {
+		c = c.Next
+		pos--
+	}
+	tail := c
+	for tail.Next != nil {
+		tail = tail.Next
+	}
+	tail.Next = c
+	return head
+}
