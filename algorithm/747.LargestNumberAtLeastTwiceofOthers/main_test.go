@@ -18,6 +18,10 @@ var tcs = []struct {
 		[]int{1, 2, 3, 4},
 		-1,
 	},
+	{
+		[]int{0, 0, 2, 1},
+		2,
+	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
