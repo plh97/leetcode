@@ -21,6 +21,11 @@ var tcs = []struct {
 		"c#d#",
 		true,
 	},
+	{
+		"a##",
+		"c#d#",
+		true,
+	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
