@@ -307,6 +307,11 @@ www/leetcode/algorithm/14.LongestCommonPrefix/main.go:8.34,10.4 1 1
 www/leetcode/algorithm/14.LongestCommonPrefix/main.go:11.37,12.32 1 8
 www/leetcode/algorithm/14.LongestCommonPrefix/main.go:12.32,15.5 2 2
 mode: atomic
+www/leetcode/algorithm/141.LinkedListCycle/main.go:18.36,20.53 2 1
+www/leetcode/algorithm/141.LinkedListCycle/main.go:27.2,27.14 1 0
+www/leetcode/algorithm/141.LinkedListCycle/main.go:20.53,23.19 3 3
+www/leetcode/algorithm/141.LinkedListCycle/main.go:23.19,25.4 1 1
+mode: atomic
 www/leetcode/algorithm/146.LRUCache/main.go:24.41,31.2 1 1
 www/leetcode/algorithm/146.LRUCache/main.go:34.37,35.33 1 5
 www/leetcode/algorithm/146.LRUCache/main.go:40.2,40.11 1 2
@@ -427,6 +432,27 @@ www/leetcode/algorithm/19.RemoveNthNodeFromEndOfList/main.go:43.2,43.12 1 5
 www/leetcode/algorithm/19.RemoveNthNodeFromEndOfList/main.go:32.18,34.3 1 1
 www/leetcode/algorithm/19.RemoveNthNodeFromEndOfList/main.go:39.31,42.3 2 8
 mode: atomic
+www/leetcode/algorithm/191.Numberof1Bits/main.go:3.41,6.38 2 4
+www/leetcode/algorithm/191.Numberof1Bits/main.go:13.2,13.19 1 4
+www/leetcode/algorithm/191.Numberof1Bits/main.go:6.38,8.35 2 6
+www/leetcode/algorithm/191.Numberof1Bits/main.go:11.3,11.21 1 6
+www/leetcode/algorithm/191.Numberof1Bits/main.go:8.35,10.4 1 2
+www/leetcode/algorithm/191.Numberof1Bits/main.go:16.38,17.31 1 6
+www/leetcode/algorithm/191.Numberof1Bits/main.go:20.2,20.11 1 6
+www/leetcode/algorithm/191.Numberof1Bits/main.go:17.31,19.3 1 37
+mode: atomic
+www/leetcode/algorithm/198.HouseRobber/main.go:6.26,10.2 3 4
+www/leetcode/algorithm/198.HouseRobber/main.go:11.29,12.20 1 100
+www/leetcode/algorithm/198.HouseRobber/main.go:15.2,15.20 1 100
+www/leetcode/algorithm/198.HouseRobber/main.go:18.2,18.32 1 100
+www/leetcode/algorithm/198.HouseRobber/main.go:22.2,23.22 2 48
+www/leetcode/algorithm/198.HouseRobber/main.go:12.20,14.3 1 3
+www/leetcode/algorithm/198.HouseRobber/main.go:15.20,17.3 1 4
+www/leetcode/algorithm/198.HouseRobber/main.go:18.32,20.3 1 52
+www/leetcode/algorithm/198.HouseRobber/main.go:26.24,27.11 1 52
+www/leetcode/algorithm/198.HouseRobber/main.go:30.2,30.10 1 38
+www/leetcode/algorithm/198.HouseRobber/main.go:27.11,29.3 1 14
+mode: atomic
 www/leetcode/algorithm/2.AddTwoNumber/main.go:8.58,14.41 4 3
 www/leetcode/algorithm/2.AddTwoNumber/main.go:32.2,32.16 1 3
 www/leetcode/algorithm/2.AddTwoNumber/main.go:14.41,16.16 2 12
@@ -469,6 +495,10 @@ www/leetcode/algorithm/204.CountPrimes/main.go:15.2,15.10 1 5
 www/leetcode/algorithm/204.CountPrimes/main.go:6.25,8.13 1 499989
 www/leetcode/algorithm/204.CountPrimes/main.go:8.13,10.30 2 41544
 www/leetcode/algorithm/204.CountPrimes/main.go:10.30,12.5 1 1400088
+mode: atomic
+www/leetcode/algorithm/206.ReverseLinkedList/main.go:17.44,19.18 2 1
+www/leetcode/algorithm/206.ReverseLinkedList/main.go:22.2,22.13 1 1
+www/leetcode/algorithm/206.ReverseLinkedList/main.go:19.18,21.3 1 5
 mode: atomic
 www/leetcode/algorithm/21.MergeTwoLists/main.go:9.58,12.15 3 5
 www/leetcode/algorithm/21.MergeTwoLists/main.go:17.2,17.29 1 3
@@ -601,16 +631,16 @@ www/leetcode/algorithm/239.SlidingWindowMaximum/main.go:6.33,8.4 1 6
 www/leetcode/algorithm/239.SlidingWindowMaximum/main.go:9.65,11.4 1 13
 www/leetcode/algorithm/239.SlidingWindowMaximum/main.go:13.14,15.4 1 18
 mode: atomic
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:10.39,11.18 1 9
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:14.2,18.31 3 6
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:22.2,22.12 1 6
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:11.18,13.3 1 3
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:18.31,21.3 2 9
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:25.42,27.18 2 3
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:31.2,31.34 1 3
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:34.2,34.26 1 3
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:27.18,30.3 2 5
-www/leetcode/algorithm/24.SwapNodesInPairs/main.go:31.34,33.3 1 2
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:13.39,14.18 1 3
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:17.2,21.31 3 2
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:25.2,25.12 1 2
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:14.18,16.3 1 1
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:21.31,24.3 2 3
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:28.42,30.18 2 3
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:34.2,34.34 1 3
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:37.2,37.26 1 3
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:30.18,33.3 2 5
+www/leetcode/algorithm/24.SwapNodesInPairs/main.go:34.34,36.3 1 2
 mode: atomic
 www/leetcode/algorithm/242.ValidAnagram/main.go:5.41,6.19 1 1
 www/leetcode/algorithm/242.ValidAnagram/main.go:9.2,9.13 1 1
@@ -800,6 +830,10 @@ www/leetcode/algorithm/387.FirstUniqueCharacterInAString/main.go:16.2,16.11 1 1
 www/leetcode/algorithm/387.FirstUniqueCharacterInAString/main.go:8.19,12.30 4 6
 www/leetcode/algorithm/387.FirstUniqueCharacterInAString/main.go:12.30,14.4 1 2
 mode: atomic
+www/leetcode/algorithm/389.FindtheDifference/main.go:3.49,5.19 2 3
+www/leetcode/algorithm/389.FindtheDifference/main.go:9.2,9.10 1 3
+www/leetcode/algorithm/389.FindtheDifference/main.go:5.19,8.3 2 996
+mode: atomic
 www/leetcode/algorithm/4.FindMedianSortedArrays/main.go:3.63,5.34 2 4
 www/leetcode/algorithm/4.FindMedianSortedArrays/main.go:12.2,12.23 1 4
 www/leetcode/algorithm/4.FindMedianSortedArrays/main.go:5.34,6.37 1 11
@@ -937,6 +971,20 @@ www/leetcode/algorithm/475.Heaters/main.go:36.8,38.3 1 5
 mode: atomic
 www/leetcode/algorithm/476.NumberComplement/main.go:3.34,12.2 7 4
 mode: atomic
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:7.51,10.12 3 4
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:23.2,23.10 1 4
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:10.12,11.36 1 1
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:11.36,12.36 1 4
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:12.36,14.5 1 3
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:16.8,17.36 1 3
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:17.36,18.40 1 13
+www/leetcode/algorithm/482.LicenseKeyFormatting/main.go:18.40,20.5 1 3
+mode: atomic
+www/leetcode/algorithm/485.MaxConsecutiveOnes/main.go:3.45,5.25 2 4
+www/leetcode/algorithm/485.MaxConsecutiveOnes/main.go:12.2,12.12 1 4
+www/leetcode/algorithm/485.MaxConsecutiveOnes/main.go:5.25,8.16 3 11
+www/leetcode/algorithm/485.MaxConsecutiveOnes/main.go:8.16,10.4 1 5
+mode: atomic
 www/leetcode/algorithm/5.LongestPalindromicSubstring/main.go:3.46,4.19 1 18
 www/leetcode/algorithm/5.LongestPalindromicSubstring/main.go:18.2,18.10 1 9
 www/leetcode/algorithm/5.LongestPalindromicSubstring/main.go:4.19,5.33 1 7
@@ -961,6 +1009,16 @@ www/leetcode/algorithm/500.KeyboardRow/main.go:19.4,19.62 1 14
 www/leetcode/algorithm/500.KeyboardRow/main.go:16.14,18.5 1 4
 www/leetcode/algorithm/500.KeyboardRow/main.go:19.62,20.22 1 14
 www/leetcode/algorithm/500.KeyboardRow/main.go:20.22,23.17 3 2
+mode: atomic
+www/leetcode/algorithm/504.Base7/main.go:5.37,8.13 2 4
+www/leetcode/algorithm/504.Base7/main.go:23.2,23.12 1 3
+www/leetcode/algorithm/504.Base7/main.go:8.13,10.15 2 2
+www/leetcode/algorithm/504.Base7/main.go:14.3,14.18 1 2
+www/leetcode/algorithm/504.Base7/main.go:10.15,13.4 2 4
+www/leetcode/algorithm/504.Base7/main.go:15.8,15.20 1 2
+www/leetcode/algorithm/504.Base7/main.go:15.20,16.15 1 1
+www/leetcode/algorithm/504.Base7/main.go:16.15,19.4 2 3
+www/leetcode/algorithm/504.Base7/main.go:20.8,22.3 1 1
 mode: atomic
 www/leetcode/algorithm/507.PerfectNumber/main.go:3.39,4.14 1 3
 www/leetcode/algorithm/507.PerfectNumber/main.go:7.2,9.30 2 2
@@ -1007,6 +1065,12 @@ www/leetcode/algorithm/539.ConvertBSTtoGreaterTree/main.go:18.17,20.3 1 8
 www/leetcode/algorithm/539.ConvertBSTtoGreaterTree/main.go:26.24,27.11 1 12
 www/leetcode/algorithm/539.ConvertBSTtoGreaterTree/main.go:30.2,30.10 1 10
 www/leetcode/algorithm/539.ConvertBSTtoGreaterTree/main.go:27.11,29.3 1 2
+mode: atomic
+www/leetcode/algorithm/541.ReverseStringII/main.go:3.36,5.14 2 1
+www/leetcode/algorithm/541.ReverseStringII/main.go:11.2,11.12 1 1
+www/leetcode/algorithm/541.ReverseStringII/main.go:5.14,6.17 1 10
+www/leetcode/algorithm/541.ReverseStringII/main.go:9.3,9.11 1 10
+www/leetcode/algorithm/541.ReverseStringII/main.go:6.17,8.4 1 3
 mode: atomic
 www/leetcode/algorithm/557.ReverseWordsInAStringIII/main.go:5.36,7.21 2 1
 www/leetcode/algorithm/557.ReverseWordsInAStringIII/main.go:10.2,11.21 2 1
@@ -1264,6 +1328,11 @@ www/leetcode/algorithm/7.ReverseInteger/main.go:10.11,13.3 2 2
 www/leetcode/algorithm/7.ReverseInteger/main.go:14.12,18.3 3 27
 www/leetcode/algorithm/7.ReverseInteger/main.go:20.49,22.3 1 1
 mode: atomic
+www/leetcode/algorithm/70.ClimbingStairs/main.go:7.29,11.2 3 3
+www/leetcode/algorithm/70.ClimbingStairs/main.go:12.24,13.24 1 89
+www/leetcode/algorithm/70.ClimbingStairs/main.go:16.2,17.14 2 43
+www/leetcode/algorithm/70.ClimbingStairs/main.go:13.24,15.3 1 46
+mode: atomic
 www/leetcode/algorithm/700.SearchinaBinarySearchTree/main.go:16.51,17.17 1 6
 www/leetcode/algorithm/700.SearchinaBinarySearchTree/main.go:20.2,21.22 2 4
 www/leetcode/algorithm/700.SearchinaBinarySearchTree/main.go:17.17,19.3 1 2
@@ -1312,14 +1381,14 @@ www/leetcode/algorithm/746.MinCostClimbingStairs/main.go:10.24,11.11 1 11
 www/leetcode/algorithm/746.MinCostClimbingStairs/main.go:11.11,13.3 1 7
 www/leetcode/algorithm/746.MinCostClimbingStairs/main.go:13.8,15.3 1 4
 mode: atomic
-www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:5.40,7.22 2 2
-www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:17.2,17.22 1 2
+www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:5.40,7.22 2 3
+www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:17.2,17.22 1 3
 www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:20.2,20.18 1 2
-www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:7.22,10.14 3 4
-www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:15.3,15.20 1 4
-www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:10.14,12.4 1 1
+www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:7.22,10.14 3 5
+www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:15.3,15.20 1 5
+www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:10.14,12.4 1 2
 www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:12.9,14.4 1 3
-www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:17.22,19.3 1 0
+www/leetcode/algorithm/762.PrimeNumberofSetBitsinBinaryRepresentation/main.go:17.22,19.3 1 1
 mode: atomic
 www/leetcode/algorithm/766.ToeplitzMatrix/main.go:3.44,6.37 1 2
 www/leetcode/algorithm/766.ToeplitzMatrix/main.go:13.2,13.13 1 1
@@ -1343,6 +1412,10 @@ www/leetcode/algorithm/783.MinimumDistanceBetweenBSTNodes/main.go:28.17,30.3 1 6
 www/leetcode/algorithm/783.MinimumDistanceBetweenBSTNodes/main.go:36.24,37.11 1 4
 www/leetcode/algorithm/783.MinimumDistanceBetweenBSTNodes/main.go:40.2,40.10 1 3
 www/leetcode/algorithm/783.MinimumDistanceBetweenBSTNodes/main.go:37.11,39.3 1 1
+mode: atomic
+www/leetcode/algorithm/796.RotateString/main.go:7.44,8.52 1 2
+www/leetcode/algorithm/796.RotateString/main.go:11.2,11.14 1 1
+www/leetcode/algorithm/796.RotateString/main.go:8.52,10.3 1 1
 mode: atomic
 www/leetcode/algorithm/8.StringToInteger/main.go:9.29,10.30 1 11
 www/leetcode/algorithm/8.StringToInteger/main.go:28.2,28.10 1 5
@@ -1377,6 +1450,21 @@ www/leetcode/algorithm/812.LargestTriangleArea/main.go:9.35,10.40 1 5
 www/leetcode/algorithm/812.LargestTriangleArea/main.go:10.40,11.41 1 10
 www/leetcode/algorithm/812.LargestTriangleArea/main.go:11.41,21.5 9 10
 mode: atomic
+www/leetcode/algorithm/819.MostCommonWord/main.go:7.63,12.39 5 6
+www/leetcode/algorithm/819.MostCommonWord/main.go:28.2,28.12 1 6
+www/leetcode/algorithm/819.MostCommonWord/main.go:12.39,13.70 1 1101
+www/leetcode/algorithm/819.MostCommonWord/main.go:13.70,15.56 2 696
+www/leetcode/algorithm/819.MostCommonWord/main.go:25.4,25.17 1 696
+www/leetcode/algorithm/819.MostCommonWord/main.go:15.56,16.33 1 105
+www/leetcode/algorithm/819.MostCommonWord/main.go:21.5,21.31 1 105
+www/leetcode/algorithm/819.MostCommonWord/main.go:16.33,18.6 1 86
+www/leetcode/algorithm/819.MostCommonWord/main.go:18.11,20.6 1 19
+www/leetcode/algorithm/819.MostCommonWord/main.go:21.31,23.6 1 10
+www/leetcode/algorithm/819.MostCommonWord/main.go:31.45,32.22 1 356
+www/leetcode/algorithm/819.MostCommonWord/main.go:37.2,37.11 1 105
+www/leetcode/algorithm/819.MostCommonWord/main.go:32.22,33.21 1 4209
+www/leetcode/algorithm/819.MostCommonWord/main.go:33.21,35.4 1 251
+mode: atomic
 www/leetcode/algorithm/830.PositionsOfLargeGroups/main.go:3.44,6.30 3 6
 www/leetcode/algorithm/830.PositionsOfLargeGroups/main.go:16.2,16.12 1 6
 www/leetcode/algorithm/830.PositionsOfLargeGroups/main.go:6.30,7.21 1 32
@@ -1397,6 +1485,14 @@ mode: atomic
 www/leetcode/algorithm/836.RectangleOverlap/main.go:3.54,12.22 1 3
 www/leetcode/algorithm/836.RectangleOverlap/main.go:15.2,15.13 1 2
 www/leetcode/algorithm/836.RectangleOverlap/main.go:12.22,14.3 1 1
+mode: atomic
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:3.48,5.2 1 2
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:7.27,8.30 1 4
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:19.2,19.10 1 4
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:8.30,9.18 1 16
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:9.18,10.13 1 6
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:10.13,13.5 2 6
+www/leetcode/algorithm/844.BackspaceStringCompare/main.go:13.10,16.5 2 0
 mode: atomic
 www/leetcode/algorithm/852.PeakIndexinaMountainArray/main.go:3.44,4.32 1 3
 www/leetcode/algorithm/852.PeakIndexinaMountainArray/main.go:10.2,10.11 1 1
@@ -1655,19 +1751,3 @@ www/leetcode/algorithm/989.AddtoArray-FormofInteger/main.go:27.24,30.4 2 7
 www/leetcode/algorithm/989.AddtoArray-FormofInteger/main.go:30.9,32.4 1 7
 www/leetcode/algorithm/989.AddtoArray-FormofInteger/main.go:34.14,36.3 1 2
 www/leetcode/algorithm/989.AddtoArray-FormofInteger/main.go:36.8,38.3 1 3
-mode: atomic
-www/leetcode/algorithm/IBM/2.公约数和公倍数/main.go:4.24,5.13 1 4
-www/leetcode/algorithm/IBM/2.公约数和公倍数/main.go:8.2,8.10 1 4
-www/leetcode/algorithm/IBM/2.公约数和公倍数/main.go:5.13,7.3 1 12
-www/leetcode/algorithm/IBM/2.公约数和公倍数/main.go:12.24,14.2 1 2
-www/leetcode/algorithm/IBM/2.公约数和公倍数/main.go:16.32,18.2 1 2
-mode: atomic
-www/leetcode/algorithm/IBM/3.重复的字符串个数/main.go:3.38,5.19 2 1
-www/leetcode/algorithm/IBM/3.重复的字符串个数/main.go:8.2,8.12 1 1
-www/leetcode/algorithm/IBM/3.重复的字符串个数/main.go:5.19,7.3 1 8
-mode: atomic
-www/leetcode/construction/listnode/listnode.go:11.39,12.18 1 11
-www/leetcode/construction/listnode/listnode.go:15.2,20.31 3 10
-www/leetcode/construction/listnode/listnode.go:25.2,25.12 1 10
-www/leetcode/construction/listnode/listnode.go:12.18,14.3 1 1
-www/leetcode/construction/listnode/listnode.go:20.31,23.3 2 20
