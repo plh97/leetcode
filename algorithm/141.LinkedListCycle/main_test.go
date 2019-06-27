@@ -15,6 +15,10 @@ var tcs = []struct {
 		Helper.Ints2ListWithCycle([]int{3, 2, 0, -4}, 1),
 		true,
 	},
+	{
+		Helper.Ints2ListWithCycle([]int{3, 2, 0, -4}, -1),
+		false,
+	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
