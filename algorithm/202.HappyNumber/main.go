@@ -2,7 +2,7 @@ package isHappy
 
 func isHappy(n int) bool {
 	table := []int{}
-	for true {
+	for {
 		temp := 0
 		for n > 0 {
 			temp += (n % 10) * (n % 10)
@@ -17,7 +17,6 @@ func isHappy(n int) bool {
 			return true
 		}
 	}
-	return false
 }
 
 func indexOf(nums []int, val int) int {
