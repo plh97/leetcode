@@ -1,5 +1,7 @@
 package singleNumber
 
+import "sort"
+
 func singleNumber(nums []int) []int {
 	Map := make(map[int]int, len(nums))
 	res := []int{}
@@ -11,5 +13,6 @@ func singleNumber(nums []int) []int {
 			res = append(res, i)
 		}
 	}
+	sort.Ints(res)
 	return res
 }
