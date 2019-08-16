@@ -1,14 +1,3 @@
-// const grid = [
-//   [0, 0, 0, 0, 0],
-//   [0, 0, 0, 0, 0],
-//   [0, 0, 0, 0, 0],
-//   [0, 0, 0, 0, 0],
-//   [0, 0, 0, 0, 0],
-// ]
-
-
-
-
 class Spot {
   constructor(i, j, w, h, ctx) {
     this.i = i; // 他们的横向坐标位置 
@@ -22,7 +11,6 @@ class Spot {
     this.neighbors = [];
     this.prev;
     this.wall = Math.random() < 0.2;
-
   }
   show(color) {
     if (this.wall) {
@@ -108,9 +96,7 @@ class Astar {
   }
 
   async draw() {
-    // for (this.openSet.length > 0;;) {
     if (this.openSet.length > 0) {
-      // keep searching going
       let winner = 0;
       this.openSet.forEach((e, i) => {
         if (e.f < this.openSet[winner].f) {
@@ -146,11 +132,8 @@ class Astar {
       }
     } else {
       console.log('no solution')
-      // no solution
       clearInterval(this.timer)
     }
-    // }
-    // background(0);
     this.loop((i, j) => {
       this.grid[i][j].show('rgb(255,255,255)');
     })
@@ -160,7 +143,6 @@ class Astar {
     this.openSet.forEach(e => {
       e.show('rgb(0,255,0)')
     })
-    // if (this.current == this.end) {
     let temp = this.current;
     this.path = [temp];
     while (temp.prev) {
@@ -170,7 +152,6 @@ class Astar {
     this.path.forEach(e => {
       e.show('blue')
     })
-    // }
   }
 }
 
