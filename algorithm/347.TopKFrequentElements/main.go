@@ -1,16 +1,22 @@
-package numberOfArithmeticSlices
+package topKFrequent
 
-func numberOfArithmeticSlices(A []int) int {
-	res := 0
-	long := 0
-	for i := 1; i < len(A)-1; i++ {
-		// i-1 i i+1
-		if A[i]-A[i-1] == A[i+1]-A[i] {
-			long++
-			res += long
-		} else {
-			long = 0
+func topKFrequent(nums []int, k int) []int {
+	res := []int{}
+	Map := make(map[int]int, k)
+	for _, e := range nums {
+		Map[e]++
+	}
+	for ; k > 0; k-- {
+		ress := 0
+		index := -1
+		for i, e := range Map {
+			if index < e {
+				index = e
+				ress = i
+			}
 		}
+		delete(Map, ress)
+		res = append(res, ress)
 	}
 	return res
 }
