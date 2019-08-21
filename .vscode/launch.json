@@ -7,9 +7,9 @@
   {
     "type": "node",
     "request": "launch",
-    "name": "nodemon",
-    "runtimeExecutable": "nodemon",
-    "program": "${fileDirname}",
+    "name": "node",
+    "runtimeExecutable": "node",
+    "program": "${fileDirname}/index.js",
     "restart": true,
     "console": "integratedTerminal",
     "internalConsoleOptions": "neverOpen"
