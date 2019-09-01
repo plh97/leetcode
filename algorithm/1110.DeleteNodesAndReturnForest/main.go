@@ -51,12 +51,3 @@ func delNodes(root *TreeNode, to_delete []int) []*TreeNode {
 
 	return res
 }
-
-func include(nums []int, val int) bool {
-	for i := range nums {
-		if nums[i] == val {
-			return true
-		}
-	}
-	return false
-}
