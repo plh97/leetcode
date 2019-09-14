@@ -2,7 +2,7 @@ package canJump
 
 func canJump(nums []int) bool {
 	res := helper(nums)
-	return res < 3
+	return res < 9999
 }
 
 func helper(nums []int) int {
@@ -22,6 +22,9 @@ func helper(nums []int) int {
 }
 
 func min(nums []int) int {
+	if len(nums) == 0 {
+		return 99999
+	}
 	res := nums[0]
 	for _, e := range nums {
 		if res > e {

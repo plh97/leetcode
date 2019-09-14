@@ -13,15 +13,35 @@ var tcs = []struct {
 	N2  int
 	ans *TreeNode
 }{
-	// {
-	// 	Helper.Ints2TreeNode([]int{5, 3, 6, 2, 4, -1 << 63, 7}),
-	// 	3,
-	// 	Helper.Ints2TreeNode([]int{5, 2, 6, -1 << 63, 4, -1 << 63, 7}),
-	// },
+	{
+		Helper.Ints2TreeNode([]int{5, 3, 6, 2, 4, -1 << 63, 7}),
+		3,
+		Helper.Ints2TreeNode([]int{5, 4, 6, 2, -1 << 63, -1 << 63, 7}),
+	},
 	{
 		Helper.Ints2TreeNode([]int{0}),
 		0,
 		Helper.Ints2TreeNode([]int{}),
+	},
+	{
+		Helper.Ints2TreeNode([]int{}),
+		0,
+		Helper.Ints2TreeNode([]int{}),
+	},
+	{
+		Helper.Ints2TreeNode([]int{1, -1 << 63, 2}),
+		2,
+		Helper.Ints2TreeNode([]int{1}),
+	},
+	{
+		Helper.Ints2TreeNode([]int{2, 1}),
+		2,
+		Helper.Ints2TreeNode([]int{1}),
+	},
+	{
+		Helper.Ints2TreeNode([]int{1, -1 << 63, 2}),
+		2,
+		Helper.Ints2TreeNode([]int{1}),
 	},
 	{
 		Helper.Ints2TreeNode([]int{1, -1 << 63, 2}),
