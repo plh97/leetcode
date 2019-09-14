@@ -8,15 +8,16 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+var a *Helper.ListNode = Helper.Ints2LinkList([]int{4, 1, 8, 4, 5})
 var tcs = []struct {
 	N1  *Helper.ListNode
 	N2  *Helper.ListNode
-	ans int
+	ans *Helper.ListNode
 }{
 	{
 		Helper.Ints2LinkList([]int{4, 1, 8, 4, 5}),
 		Helper.Ints2LinkList([]int{5, 0, 1, 8, 4, 5}),
-		8,
+		nil,
 	},
 }
 
