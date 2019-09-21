@@ -5,7 +5,7 @@ import (
 )
 
 func merge(intervals [][]int) [][]int {
-	sortArray(intervals, 0)
+	// sortArray(intervals, 0)
 	for i := 0; i < len(intervals); i++ {
 		for j := i + 1; j < len(intervals); j++ {
 			a := intervals[i]
@@ -31,21 +31,21 @@ func merge(intervals [][]int) [][]int {
 }
 
 // pop sort
-func sortArray(arr [][]int, index int) [][]int {
-	if index > len(arr) {
-		return arr
-	}
-	if len(arr) < 2 {
-		return arr
-	}
-	for i := 0; i < len(arr); i++ {
-		ei := arr[i]
-		for j := i + 1; j < len(arr); j++ {
-			ej := arr[j]
-			if ei[index] > ej[index] {
-				arr[i], arr[j] = arr[j], arr[i]
-			}
-		}
-	}
-	return arr
-}
+// func sortArray(arr [][]int, index int) [][]int {
+// 	if index > len(arr) {
+// 		return arr
+// 	}
+// 	if len(arr) < 2 {
+// 		return arr
+// 	}
+// 	for i := 0; i < len(arr); i++ {
+// 		ei := arr[i]
+// 		for j := i + 1; j < len(arr); j++ {
+// 			ej := arr[j]
+// 			if ei[index] > ej[index] {
+// 				arr[i], arr[j] = arr[j], arr[i]
+// 			}
+// 		}
+// 	}
+// 	return arr
+// }

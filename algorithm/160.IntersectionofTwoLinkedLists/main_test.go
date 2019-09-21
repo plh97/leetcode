@@ -14,11 +14,11 @@ var tcs = []struct {
 	N2  *Helper.ListNode
 	ans *Helper.ListNode
 }{
-	// {
-	// 	Helper.Ints2LinkList([]int{4, 1, 8, 4, 5}),
-	// 	Helper.Ints2LinkList([]int{5, 0, 1, 8, 4, 5}),
-	// 	nil,
-	// },
+	{
+		Helper.Ints2LinkList([]int{4, 1, 8, 4, 5}),
+		Helper.Ints2LinkList([]int{5, 0, 1, 8, 4, 5}),
+		nil,
+	},
 }
 
 func Test_bitwiseComplement(t *testing.T) {
