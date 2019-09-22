@@ -12,13 +12,17 @@ var tcs = []struct {
 	N1  *Helper.TreeNode
 	ans int
 }{
-	// {
-	// 	Helper.Ints2TreeNode([]int{1, 2, 3}),
-	// 	25,
-	// },
+	{
+		Helper.Ints2TreeNode([]int{1, 2, 3}),
+		25,
+	},
 	{
 		Helper.Ints2TreeNode([]int{4, 9, 0, 5, 1}),
 		1026,
+	},
+	{
+		Helper.Ints2TreeNode([]int{}),
+		0,
 	},
 }
 
