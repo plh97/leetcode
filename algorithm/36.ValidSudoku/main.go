@@ -1,7 +1,5 @@
 package isValidSudoku
 
-import "fmt"
-
 func isValidSudoku(board [][]byte) bool {
 	// ◀️️️️️️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ◀️️️️️️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ◀️️️️️️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ◀️️️️️️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️ ️
 	// check line
@@ -44,7 +42,6 @@ func isValidSudoku(board [][]byte) bool {
 }
 
 func isSame3X3(board [][]byte, m, n int) bool {
-	fmt.Println("===================")
 	Map := map[byte]int{}
 	for i := 3 * m; i < 3*(m+1); i++ {
 		for j := 3 * n; j < 3*(n+1); j++ {

@@ -2,6 +2,7 @@ package isValidBST
 
 import (
 	"math"
+
 	"github.com/pengliheng/leetcode/Helper"
 )
 
@@ -31,18 +32,5 @@ func helper(root *TreeNode, min, max int) bool {
 	if root.Right != nil && root.Right.Val <= root.Val {
 		return false
 	}
-	return helper(root.Left, min, maxFunc(min, root.Val)) && helper(root.Right, minFunc(max, root.Val), max)
-}
-
-func maxFunc(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-func minFunc(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
+	return helper(root.Left, min, root.Val) && helper(root.Right, root.Val, max)
 }
