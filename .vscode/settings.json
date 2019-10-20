@@ -1,4 +1,10 @@
 {
-  "python.linting.enabled": true,
-  "java.format.settings.profile": "GoogleStyle",
+  // "python.linting.enabled": true,
+  // "java.format.settings.profile": "GoogleStyle",
+  "go.inferGopath": true,
+  "go.buildOnSave": "workspace",
+  "go.docsTool": "gogetdoc",
+  "go.lintTool": "golint",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
