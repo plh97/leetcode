@@ -31,12 +31,12 @@ func missingNumber(arr []int) int {
 			max = arr1[1]
 		}
 	}
-
+	res := 0
 	for i := 1; i < len(arr); i++ {
 		if max != (arr[i] - arr[i-1]) {
-			return arr[i-1] + max
+			res = arr[i-1] + max
 		}
 	}
 
-	return -1
+	return res
 }
